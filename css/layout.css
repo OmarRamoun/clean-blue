@@ -18,6 +18,23 @@ body {
 /* Wrapper/end */
 
 /* header/start */
+
+header {
+  padding: 1rem 0;
+}
+
+#logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 5.9rem;
+}
+
+#logo img {
+  height: 1.6rem;
+  border-radius: 50%;
+}
+
 /* header/end */
 
 /* intro/start */
