@@ -44,7 +44,7 @@ li {
 
 /* header/start */
 
-#logo {
+.logo {
   color: var(--accent, #6070ff);
   font-size: 0.9rem;
   font-weight: bold;
