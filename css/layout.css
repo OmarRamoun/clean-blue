@@ -7,6 +7,11 @@ body * {
   box-sizing: border-box;
 }
 
+body {
+  max-width: 18.75rem;
+  margin: auto;
+}
+
 /* Generl Rules/end */
 
 /* Wrapper/start */
