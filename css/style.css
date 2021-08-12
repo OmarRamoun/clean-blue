@@ -8,6 +8,10 @@
   --gray: #e5e5e5;
 }
 
+body {
+  background-color: var(--gray, #e5e5e5);
+}
+
 /* General Rules/end */
 
 /* header/start */
