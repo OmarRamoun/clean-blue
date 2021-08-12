@@ -17,6 +17,25 @@ body {
   background-color: var(--white, #fff);
 }
 
+.hero h1 {
+  color: var(--black, #172b4d);
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+
+.hero p {
+  color: var(--black-light, #344563);
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.hero a {
+  color: var(--accent-light, #7f8cff);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 /* General Rules/end */
 
 /* header/start */
