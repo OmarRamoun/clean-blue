@@ -49,6 +49,13 @@ body {
 /* header/end */
 
 /* intro/start */
+
+.intro {
+  background-image: url('../images/header-bg.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 /* intro/end */
 
 /* works/start */
