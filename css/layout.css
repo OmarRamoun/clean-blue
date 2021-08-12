@@ -15,6 +15,15 @@ body {
 /* Generl Rules/end */
 
 /* Wrapper/start */
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 1.3rem;
+  width: 100%;
+}
+
 /* Wrapper/end */
 
 /* header/start */
