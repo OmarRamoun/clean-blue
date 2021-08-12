@@ -12,6 +12,11 @@ body {
   margin: auto;
 }
 
+.hero * {
+  flex-basis: 100%;
+  margin-bottom: 0.6rem;
+}
+
 .social {
   gap: 1rem;
   max-width: 2rem;
@@ -64,11 +69,6 @@ header {
   height: 30rem;
   padding-top: 4.2rem;
   border-bottom-left-radius: 15%;
-}
-
-.hero * {
-  flex-basis: 100%;
-  margin-bottom: 0.6rem;
 }
 
 /* intro/end */
