@@ -12,6 +12,10 @@ body {
   background-color: var(--gray, #e5e5e5);
 }
 
+.bg {
+  background-color: var(--white, #fff);
+}
+
 /* General Rules/end */
 
 /* header/start */
