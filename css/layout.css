@@ -47,6 +47,18 @@ header {
 /* header/end */
 
 /* intro/start */
+
+.intro {
+  height: 30rem;
+  padding-top: 5.7rem;
+  border-bottom-left-radius: 15%;
+}
+
+.hero * {
+  flex-basis: 100%;
+  margin-bottom: 0.6rem;
+}
+
 /* intro/end */
 
 /* works/start */
