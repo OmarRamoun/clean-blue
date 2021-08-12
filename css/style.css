@@ -1,4 +1,13 @@
 /* General Rules/start */
+
+:root {
+  --black: #172b4d;
+  --black-light: #344563;
+  --accent: #6070ff;
+  --accent-light: #7f8cff;
+  --gray: #e5e5e5;
+}
+
 /* General Rules/end */
 
 /* header/start */
