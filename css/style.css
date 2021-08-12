@@ -21,6 +21,10 @@ li {
   background-color: var(--white, #fff);
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .hero h1 {
   color: var(--black, #172b4d);
   font-size: 2rem;
@@ -37,7 +41,6 @@ li {
   color: var(--accent-light, #7f8cff);
   font-size: 0.8rem;
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 /* General Rules/end */
@@ -47,7 +50,6 @@ li {
 .logo {
   color: var(--accent, #6070ff);
   font-size: 0.9rem;
-  font-weight: bold;
 }
 
 /* header/end */
