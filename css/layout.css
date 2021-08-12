@@ -12,6 +12,13 @@ body {
   margin: auto;
 }
 
+.social {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  max-width: 2rem;
+}
+
 /* Generl Rules/end */
 
 /* Wrapper/start */
