@@ -31,15 +31,18 @@ li {
   line-height: 2.6rem;
 }
 
+.hero p,
+.hero a {
+  font-size: 0.8rem;
+}
+
 .hero p {
   color: var(--black-light, #344563);
-  font-size: 0.8rem;
   line-height: 1.2rem;
 }
 
 .hero a {
   color: var(--accent-light, #7f8cff);
-  font-size: 0.8rem;
   text-transform: uppercase;
 }
 
