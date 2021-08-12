@@ -1,4 +1,12 @@
 /* Generl Rules/start */
+
+*,
+body,
+body * {
+  outline: none;
+  box-sizing: border-box;
+}
+
 /* Generl Rules/end */
 
 /* Wrapper/start */
