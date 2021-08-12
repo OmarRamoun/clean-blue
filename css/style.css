@@ -20,6 +20,13 @@ body {
 /* General Rules/end */
 
 /* header/start */
+
+#logo {
+  color: var(--accent, #6070ff);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
 /* header/end */
 
 /* intro/start */
