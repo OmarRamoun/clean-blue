@@ -1,19 +1,69 @@
+/* General Rules/start */
+
 :root {
-  --dark: #2f303a;
-  --light-black: #26262e;
-  --accent: #1762a7;
-  --accent-hover: #2180d8;
-  --light: #fff;
-  --light-hover: #adadad;
-  --blue: #3856b0;
-  --red: #b038a0;
-  --purple: #3a38b0;
+  --black: #172b4d;
+  --black-light: #344563;
+  --accent: #6070ff;
+  --accent-light: #7f8cff;
+  --gray: #e5e5e5;
+  --white: #fff;
 }
 
-* {
-  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+body {
+  background-color: var(--gray, #e5e5e5);
 }
 
-a {
-  cursor: pointer;
+.bg {
+  background-color: var(--white, #fff);
 }
+
+.hero h1 {
+  color: var(--black, #172b4d);
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+
+.hero p {
+  color: var(--black-light, #344563);
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.hero a {
+  color: var(--accent-light, #7f8cff);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* General Rules/end */
+
+/* header/start */
+
+#logo {
+  color: var(--accent, #6070ff);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* header/end */
+
+/* intro/start */
+
+.intro {
+  background-image: url('../images/header-bg.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* intro/end */
+
+/* works/start */
+/* card-header/begin */
+/* card-header/end */
+/* card-content/begin */
+/* card-content/end */
+/* works/end */
+
+/* about/start */
+/* about/end */
