@@ -156,4 +156,56 @@ button:disabled {
 
 /* card/end */
 
+/* about/start */
+
+.about {
+  height: 50rem;
+  border-top-right-radius: 5rem;
+  padding-top: 5.7rem;
+  margin-bottom: 0;
+}
+
+.about button {
+  transform: translateY(-50%);
+  margin-top: 0.8rem;
+}
+
+.arrow {
+  flex-basis: auto;
+}
+
+summary {
+  border-bottom: 1px solid #DFE1E6;
+}
+
+summary img {
+  transform: translate(-100%, 100%);
+}
+
+summary:hover {
+  cursor: pointer;
+}
+
+.lang {
+  background: #F7F7F9;
+  border-radius: 8px;
+}
+
+.lang * {
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+  padding-left: 0.5rem;
+  flex-basis: auto;
+}
+
+.lang img {
+  height: 3rem;
+}
+
+.rotate {
+  transform: rotate(-90deg) translate(-70%, -100%);
+}
+
+/* about/end */
+
 /* works/end */
