@@ -40,6 +40,14 @@ button {
   text-transform: capitalize;
 }
 
+.black {
+  color: var(--black, #172b4d);
+}
+
+.balck-light {
+  color: var(--black-light, #344563);
+}
+
 .hero .heading {
   color: var(--black, #172b4d);
   font-size: 2rem;
