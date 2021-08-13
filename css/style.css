@@ -32,6 +32,14 @@ button {
   font-weight: bold;
 }
 
+.upper {
+  text-transform: uppercase;
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
 .hero h1 {
   color: var(--black, #172b4d);
   font-size: 2rem;
