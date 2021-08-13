@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: var(--gray, #e5e5e5);
+  background-color: var(--gray-light, #e5e5e5);
 }
 
 li,
