@@ -14,7 +14,8 @@ body {
   background-color: var(--gray, #e5e5e5);
 }
 
-li {
+li,
+summary {
   list-style-type: none;
 }
 
