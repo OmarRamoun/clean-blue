@@ -18,6 +18,11 @@ li {
   list-style-type: none;
 }
 
+button {
+  color: var(--blue, #396df2);
+  text-transform: capitalize;
+}
+
 .bg {
   background-color: var(--white, #fff);
 }
