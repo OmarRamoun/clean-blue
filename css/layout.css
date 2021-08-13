@@ -19,6 +19,26 @@ button {
   flex-basis: auto;
 }
 
+button:hover {
+  color: #fff;
+  border-color: #6070ff;
+  background: #6070FF;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:active {
+  background: #2230D2;
+  box-shadow: none;
+}
+
+button:disabled {
+  border: 1px solid #C1C7D0;
+  background: #fff;
+  color: #5E6C84;
+}
+
 .hero * {
   flex-basis: 100%;
   margin-bottom: 0.6rem;
