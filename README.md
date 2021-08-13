@@ -2,15 +2,15 @@
 
 # Ramoun's Portfolio
 
-> A Simple Portfolio App for a Web developer.
+> A Simple Software Engineer Portfolio App Made with Vanilla HTML5, CSS3. The Project Contains a Showcase with Information About Me, All of My Works (Apps), and a Contact Form for Communication.
 
 ![screenshot](images/app_screenshot.png)
 
-| *The Project contains a showcase with all my works.*
+| *A Screenshot of the Mobile Version of the Portfolio App*
 
 ## Built With
 
-- Languages: _**HTML, CSS**_
+- Languages: _**HTML5, CSS3**_
 - Technologies used: _**GIT, GITHUB, LINTERS**_
 
 ## Live Demo
