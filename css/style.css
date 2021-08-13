@@ -46,10 +46,6 @@ button {
   color: var(--black, #172b4d);
 }
 
-.balck-light {
-  color: var(--black-light, #344563);
-}
-
 .gray {
   color: var(--gray, #7a869a);
 }
