@@ -58,7 +58,6 @@ button {
 
 .hero a {
   color: var(--accent-light, #7f8cff);
-  text-transform: uppercase;
 }
 
 /* General Rules/end */
