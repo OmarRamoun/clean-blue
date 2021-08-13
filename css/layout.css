@@ -79,7 +79,7 @@ button {
 .intro {
   height: 30rem;
   padding-top: 4.2rem;
-  border-bottom-left-radius: 15%;
+  border-radius: 0 0 0% 100px;
 }
 
 /* intro/end */
