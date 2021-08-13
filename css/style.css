@@ -116,4 +116,17 @@ button {
 
 /* card-header/end */
 
+/* card-content/begin */
+
+.content p {
+  font-size: 0.75rem;
+}
+
+.tags a {
+  background-color: var(--blue-light, #ebebff);
+  font-size: 0.6rem;
+  letter-spacing: 0.03rem;
+}
+/* card-content/end */
+
 /* work/end */
