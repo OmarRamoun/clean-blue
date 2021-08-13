@@ -97,3 +97,22 @@ button {
 }
 
 /* intro/end */
+
+/* work/start */
+
+/* card-header/start */
+
+.card h3 {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+.category {
+  font-size: 0.65rem;
+  line-height: 0.8rem;
+  font-weight: 600;
+}
+
+/* card-header/end */
+
+/* work/end */
