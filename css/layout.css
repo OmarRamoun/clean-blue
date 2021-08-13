@@ -93,9 +93,9 @@ button {
 
 .works .wrapper {
   display: grid;
-  grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
-  grid-gap: 4.4rem;
+  grid-row-gap: 4.4rem;
+  padding: 0;
+  width: 16.35rem;
 }
-
 /* works/end */
