@@ -74,7 +74,8 @@ button {
   line-height: 1.2rem;
 }
 
-.hero a {
+.hero a,
+.tags a {
   color: var(--accent-light, #7f8cff);
 }
 
