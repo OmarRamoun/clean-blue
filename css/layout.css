@@ -37,6 +37,10 @@ button {
   align-items: center;
 }
 
+.flex-h-center {
+  justify-content: center;
+}
+
 .flex-space-between {
   justify-content: space-between;
 }
