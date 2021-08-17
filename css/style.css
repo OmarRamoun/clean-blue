@@ -138,12 +138,12 @@ button {
 
 /* footer/start */
 
-.footer {
+.footer .wrapper {
   background-image: url("../images/footer-bg.svg");
-  background-size: 100%;
+  background-size: 60%;
   background-repeat: no-repeat;
+  background-position: right;
   height: 38.95rem;
-  background-color: var(--accent);
 }
 
 .footer .heading,
