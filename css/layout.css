@@ -209,3 +209,45 @@ summary:hover {
 /* about/end */
 
 /* works/end */
+
+/* footer/start */
+
+.footer .wrapper {
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-top-left-radius: 100px;
+  padding-top: 6.5rem;
+}
+
+.footer p {
+  margin-bottom: 3rem;
+}
+
+.footer form {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer .wrapper * {
+  flex-basis: auto;
+}
+
+.form-element {
+  border-radius: 0.4rem;
+  padding: 0.75rem;
+  border: 1px solid #cfd8dc;
+}
+
+form button {
+  align-self: flex-start;
+}
+
+input.form-element {
+  height: 2.4rem;
+}
+
+textarea.form-element {
+  height: 8.5rem;
+}
+
+/* footer/end */
