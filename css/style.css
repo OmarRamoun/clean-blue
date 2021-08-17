@@ -146,4 +146,14 @@ button {
   background-color: var(--accent);
 }
 
+.footer .heading,
+.footer p {
+  color: #fff;
+}
+
+.footer p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
 /* footer/end */
