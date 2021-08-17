@@ -156,4 +156,15 @@ button {
   line-height: 1.4rem;
 }
 
+.form-element {
+  color: var(--black, #172b4d);
+  font-family: poppins, sans-serif;
+  font-size: 0.85rem;
+}
+
+.form-element::placeholder {
+  color: #B3BAC5;
+  font-size: 0.75rem;
+}
+
 /* footer/end */
