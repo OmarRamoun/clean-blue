@@ -30,6 +30,10 @@ button {
   background-color: var(--white, #fff);
 }
 
+.center {
+  text-align: center;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -131,3 +135,37 @@ button {
 /* card-content/end */
 
 /* work/end */
+
+/* footer/start */
+
+.footer .wrapper {
+  background-image: url("../images/footer-bg.svg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 38.95rem;
+  background-color: var(--accent);
+}
+
+.footer .heading,
+.footer p {
+  color: #fff;
+}
+
+.footer p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.form-element {
+  color: var(--black, #172b4d);
+  font-family: poppins, sans-serif;
+  font-size: 0.85rem;
+}
+
+.form-element::placeholder {
+  color: #b3bac5;
+  font-size: 0.75rem;
+}
+
+/* footer/end */
