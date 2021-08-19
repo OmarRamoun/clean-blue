@@ -9,7 +9,7 @@ body * {
 
 body {
   max-width: 18.75rem;
-  margin: auto;
+  margin: 0 auto;
 }
 
 button {
