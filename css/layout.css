@@ -170,43 +170,36 @@ button:disabled {
 
 .about {
   border-top-right-radius: 5rem;
-  padding-top: 5.7rem;
-  margin-bottom: 0;
+  padding-bottom: 5.7rem;
 }
 
 .about button {
-  transform: translateY(-50%);
-  margin-top: 0.8rem;
-}
-
-.arrow {
-  flex-basis: auto;
+  flex-basis: 100%;
+  margin-bottom: 1.3rem;
 }
 
 .summary {
   border-bottom: 1px solid #dfe1e6;
+  padding: 1rem 0.5rem;
 }
 
 .summary:hover {
   cursor: pointer;
 }
 
-.summary img {
-  transform: translate(-100%, 100%);
+details[open] .arrow {
+  transform: rotate(90deg);
 }
 
 details[open] .summary {
   border: none;
 }
 
-.lang * {
-  margin-bottom: 0;
-  padding: 0.5rem 0;
-  padding-left: 0.5rem;
-  flex-basis: auto;
+.languages {
+  margin-top: 0.6rem;
 }
 
-.lang img {
+.lang > img {
   height: 3rem;
 }
 
