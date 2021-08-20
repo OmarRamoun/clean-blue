@@ -10,3 +10,8 @@ body {
 
 /* Generl Rules/end */
 
+/* header/start */
+
+.main-header {
+  padding: 2rem 0;
+}
