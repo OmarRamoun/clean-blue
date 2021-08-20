@@ -117,7 +117,7 @@ button:disabled {
 /* intro/start */
 
 .intro {
-  height: 30rem;
+  min-height: 30rem;
   padding-top: 4.2rem;
   border-radius: 0 0 0% 100px;
 }
