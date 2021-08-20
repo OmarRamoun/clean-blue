@@ -16,7 +16,6 @@ button {
   padding: 0.6rem;
   border-radius: 0.4rem;
   border: 1px solid #7f8cff;
-  flex-basis: auto;
 }
 
 form button {
