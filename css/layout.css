@@ -28,14 +28,12 @@ button:hover {
 }
 
 button:active {
-  background: #2230d2;
   box-shadow: none;
 }
 
 button:disabled {
   border: 1px solid #c1c7d0;
-  background: #fff;
-  color: #5e6c84;
+  box-shadow: none;
 }
 
 .hero * {
