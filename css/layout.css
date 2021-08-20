@@ -115,6 +115,10 @@ button:disabled {
   border-radius: 50%;
 }
 
+.nav-menu {
+  display: none;
+}
+
 /* header/end */
 
 /* intro/start */
