@@ -56,15 +56,15 @@ button:disabled {
   display: flex;
 }
 
-.flex-cross-center {
+.cross-center {
   align-items: center;
 }
 
-.flex-main-center {
+.main-center {
   justify-content: center;
 }
 
-.flex-space-between {
+.space-between {
   justify-content: space-between;
 }
 
