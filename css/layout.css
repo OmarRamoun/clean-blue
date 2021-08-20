@@ -156,10 +156,6 @@ button:disabled {
   border-radius: 50%;
 }
 
-.tags {
-  margin-top: 0.8rem;
-}
-
 .tags li {
   flex-basis: auto;
   margin-right: 0.6rem;
