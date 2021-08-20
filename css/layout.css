@@ -37,7 +37,12 @@ button:disabled {
   box-shadow: none;
 }
 
-.hero > * + * {
+.lang > * {
+  padding: 0.5rem 0;
+  padding-left: 0.5rem;
+}
+
+.hero > * + *:not(button) {
   margin-top: 0.6rem;
 }
 
@@ -190,9 +195,8 @@ button:disabled {
   transform: translate(-100%, 100%);
 }
 
-.lang {
-  background: #f7f7f9;
-  border-radius: 8px;
+details[open] .summary {
+  border: none;
 }
 
 .lang * {
