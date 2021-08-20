@@ -15,3 +15,18 @@ body {
 .main-header {
   padding: 2rem 0;
 }
+
+.main-nav {
+  min-width: 28%;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.main-nav img {
+  display: none;
+}
+
+/* header/end */
