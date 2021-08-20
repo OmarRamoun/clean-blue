@@ -152,7 +152,7 @@ button:disabled {
   border-radius: 50%;
 }
 
-.tags li {
+.tags li:not(:last-child) {
   margin-right: 0.6rem;
 }
 
