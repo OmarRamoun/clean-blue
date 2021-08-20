@@ -161,7 +161,6 @@ button:disabled {
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: right;
-  height: 38.95rem;
   background-color: var(--accent);
 }
 
