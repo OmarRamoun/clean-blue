@@ -36,8 +36,8 @@ button:disabled {
   box-shadow: none;
 }
 
-.hero > * {
-  margin-bottom: 0.6rem;
+.hero > * + * {
+  margin-top: 0.6rem;
 }
 
 .social {
