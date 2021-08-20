@@ -157,9 +157,7 @@ button:disabled {
 }
 
 .tags li {
-  flex-basis: auto;
   margin-right: 0.6rem;
-  margin-bottom: 0;
 }
 
 .tags a {
@@ -171,7 +169,6 @@ button:disabled {
 /* about/start */
 
 .about {
-  height: 50rem;
   border-top-right-radius: 5rem;
   padding-top: 5.7rem;
   margin-bottom: 0;
@@ -213,10 +210,6 @@ details[open] .summary {
   height: 3rem;
 }
 
-.rotate {
-  transform: rotate(-90deg) translate(-70%, -100%);
-}
-
 /* about/end */
 
 /* works/end */
@@ -224,21 +217,12 @@ details[open] .summary {
 /* footer/start */
 
 .footer .wrapper {
-  flex-wrap: wrap;
   border-top-left-radius: 100px;
   padding-top: 6.5rem;
 }
 
 .footer p {
   margin-bottom: 3rem;
-}
-
-.footer form {
-  flex-wrap: wrap;
-}
-
-.footer .wrapper * {
-  flex-basis: auto;
 }
 
 .form-element {
