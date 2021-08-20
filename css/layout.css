@@ -20,6 +20,7 @@ button {
 
 form button {
   align-self: flex-start;
+  margin-top: 0.6rem;
 }
 
 button:hover {
