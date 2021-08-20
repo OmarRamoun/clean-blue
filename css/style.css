@@ -23,7 +23,6 @@ summary {
 
 button {
   color: var(--blue, #396df2);
-  text-transform: capitalize;
 }
 
 button:hover {
@@ -127,7 +126,7 @@ button:disabled {
   line-height: 2.2rem;
 }
 
-.category {
+.info li * {
   font-size: 0.65rem;
   font-weight: 600;
 }
