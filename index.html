@@ -34,7 +34,8 @@
   <section class="intro bg">
     <div class="wrapper hero flex space-between">
       <h1 class="heading">I’m&nbsp;Ramoun Glad&nbsp;to&nbsp;see you!</h1>
-      <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+      <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and
+        experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
       <a class="bold upper" href="#contact-form">let's connect</a>
       <ul class="social flex cross-center">
         <li><a href="https://twitter.com/ramoun16"><img src="./images/social/twitter.svg" alt=""></a></li>
@@ -138,7 +139,7 @@
   <!-- about -->
   <section class="about margin-seprator bg">
     <div class="wrapper hero flex space-between">
-      <h2 class="heading bold cap">About <br> Myself</h2>
+      <h2 class="heading bold cap margin-seprator">About <br> Myself</h2>
       <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
       <a class="bold upper" href="#contact-form">let's connect</a>
       <ul class="social flex cross-center">
@@ -148,31 +149,45 @@
         <li><a href="https://github.com/mrramoun"><img src="./images/social/github.svg" alt=""></a></li>
         <li><a href="https://angel.co/u/omar-ramoun"><img src="./images/social/vector.svg" alt=""></a></li>
       </ul>
-      <button class="bg" type="button">get my resume</button>
-      <ul class="skills">
-        <li><details open>
-          <summary class="summary flex cross-center space-between cap">
-            <span>languages</span>
-            <span class="arrow"><img src="./images/arrow.svg" alt=""></span>
-          </summary>
-          <ul class="languages">
-            <li class="lang flex cross-center"><img src="./images/lingos/javascript.svg" alt=""><span>JavaScript</span></li>
-            <li class="lang flex cross-center"><img src="./images/lingos/html.svg" alt=""><span>HTML</span></li>
-            <li class="lang flex cross-center"><img src="./images/lingos/css.svg" alt=""><span>CSS</span></li>
-          </ul>
-        </details></li>
-        <li><details>
-          <summary class="summary flex cross-center space-between cap">
-            <span>frameworks</span>
-            <span class="arrow flex cross-center"><img class="rotate" src="./images/arrow.svg" alt=""></span>
-          </summary>
-        </details></li>
-        <li><details>
-          <summary class="summary flex cross-center space-between cap">
-            <span>skills</span>
-            <span class="arrow flex main-center"><img class="rotate" src="./images/arrow.svg" alt=""></span>
-          </summary>
-        </details></li>
+      <button class="bg round-borders" type="button">get my resume</button>
+      <ul class="skills hero flex flex-column full-width">
+        <li>
+          <details open>
+            <summary class="summary flex cross-center space-between cap">
+              <span>languages</span>
+              <span class="arrow flex"><img src="./images/arrow.svg" alt=""></span>
+            </summary>
+            <ul class="hero">
+              <li class="lang flex cross-center round-borders">
+                <img src="./images/lingos/javascript.svg" alt="">
+                <span>JavaScript</span></li>
+              <li class="lang flex cross-center round-borders">
+                <img src="./images/lingos/html.svg" alt="">
+                <span>HTML</span>
+              </li>
+              <li class="lang flex cross-center round-borders">
+                <img src="./images/lingos/css.svg" alt="">
+                <span>CSS</span>
+              </li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary class="summary flex cross-center space-between cap">
+              <span>frameworks</span>
+              <span class="arrow flex cross-center"><img src="./images/arrow.svg" alt=""></span>
+            </summary>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary class="summary flex cross-center space-between cap">
+              <span>skills</span>
+              <span class="arrow flex main-center"><img src="./images/arrow.svg" alt=""></span>
+            </summary>
+          </details>
+        </li>
       </ul>
     </div>
   </section>
@@ -181,12 +196,16 @@
   <footer class="footer bg">
     <div class="wrapper hero flex flex-column">
       <h2 class="heading bold cap center">contact me</h2>
-      <p class="center">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
-      <form id="contact-form" class="flex flex-column" action="https://formspree.io/f/mrgroknj" method="post">
-        <input class="form-element" type="text" id="name" name="user_name" placeholder="Name (ex: John Does)" maxlength="30" required>
-        <input class="form-element" type="email" id="mail" name="user_email" placeholder="Email (ex: john@gmail.com" required>
-        <textarea class="form-element" id="msg" name="user_message" placeholder="Write your message here" maxlength="500" required></textarea>
-        <button class="bg cap" type="submit">get in touch</button>
+      <p class="center">If you have an application you are interested in developing, a feature that you need built or a
+        project that needs coding. I’d love to help with it</p>
+      <form id="contact-form" class="hero flex flex-column full-width" action="https://formspree.io/f/mrgroknj" method="post">
+        <input class="form-element round-borders" type="text" id="name" name="user_name"
+          placeholder="Name (ex: John Does)" maxlength="30" required>
+        <input class="form-element round-borders" type="email" id="mail" name="user_email"
+          placeholder="Email (ex: john@gmail.com" required>
+        <textarea class="form-element round-borders" id="msg" name="user_message" placeholder="Write your message here"
+          maxlength="500" required></textarea>
+        <button class="bg cap round-borders" type="submit">get in touch</button>
       </form>
     </div>
   </footer>
