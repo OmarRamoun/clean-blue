@@ -26,6 +26,20 @@ button {
   text-transform: capitalize;
 }
 
+button:hover {
+  color: var(--white, #fff);
+  background-color: var(--accent, #6070ff);
+}
+
+button:active {
+  background-color: #2230d2;
+}
+
+button:disabled {
+  background-color: var(--white, #fff);
+  color: #5e6c84;
+}
+
 .bg {
   background-color: var(--white, #fff);
 }
@@ -136,6 +150,10 @@ button {
 
 /* work/end */
 
+.lang {
+  background: #f7f7f9;
+}
+
 /* footer/start */
 
 .footer .wrapper {
@@ -143,7 +161,6 @@ button {
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: right;
-  height: 38.95rem;
   background-color: var(--accent);
 }
 
