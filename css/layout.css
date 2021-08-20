@@ -36,8 +36,7 @@ button:disabled {
   box-shadow: none;
 }
 
-.hero * {
-  flex-basis: 100%;
+.hero > * {
   margin-bottom: 0.6rem;
 }
 
