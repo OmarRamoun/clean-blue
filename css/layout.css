@@ -61,6 +61,10 @@ button:disabled {
   justify-content: space-between;
 }
 
+.margin-seprator {
+  margin-top: 5.7rem;
+}
+
 /* Generl Rules/end */
 
 /* Wrapper/start */
@@ -100,11 +104,6 @@ button:disabled {
 /* intro/end */
 
 /* works/start */
-
-.works {
-  margin-top: 5.7rem;
-  margin-bottom: 5.7rem;
-}
 
 .works .wrapper {
   display: grid;
