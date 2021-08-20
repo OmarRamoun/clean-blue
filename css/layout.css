@@ -68,7 +68,6 @@ button:disabled {
 .wrapper {
   flex-wrap: wrap;
   padding: 0 1.3rem;
-  width: 100%;
 }
 
 /* Wrapper/end */
