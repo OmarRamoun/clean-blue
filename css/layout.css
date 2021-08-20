@@ -74,10 +74,6 @@ button:disabled {
 
 /* header/start */
 
-summary img {
-  transform: translate(-100%, 100%);
-}
-
 .main-header {
   padding: 1rem 0;
 }
@@ -175,12 +171,16 @@ summary img {
   flex-basis: auto;
 }
 
-summary {
+.summary {
   border-bottom: 1px solid #dfe1e6;
 }
 
-summary:hover {
+.summary:hover {
   cursor: pointer;
+}
+
+.summary img {
+  transform: translate(-100%, 100%);
 }
 
 .lang {
