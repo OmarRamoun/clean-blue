@@ -85,6 +85,9 @@ button:disabled {
   border-radius: 0.4rem;
 }
 
+.full-width {
+  width: 100%;
+}
 
 /* Generl Rules/end */
 
