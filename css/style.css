@@ -23,7 +23,6 @@ summary {
 
 button {
   color: var(--blue, #396df2);
-  text-transform: capitalize;
 }
 
 button:hover {
