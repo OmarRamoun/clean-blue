@@ -49,11 +49,11 @@ button:disabled {
   display: flex;
 }
 
-.flex-v-center {
+.flex-cross-center {
   align-items: center;
 }
 
-.flex-h-center {
+.flex-main-center {
   justify-content: center;
 }
 
