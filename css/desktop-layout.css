@@ -103,3 +103,17 @@ body {
 }
 
 /* about/end */
+
+/* footer/start */
+
+.footer .wrapper > * {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact-form button {
+  align-self: center;
+}
+
+/* footer/end */
