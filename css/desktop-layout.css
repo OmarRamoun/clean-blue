@@ -70,3 +70,36 @@ body {
 .card:nth-child(2n) > *:nth-child(1) {
   order: 1;
 }
+
+/* card/end */
+
+/* about/start */
+
+.about button {
+  align-self: flex-start;
+}
+
+.about .wrapper {
+  flex-direction: row;
+  gap: 1.9rem;
+}
+
+.about .skills {
+  margin-top: 5.7rem;
+}
+
+.languages .lang {
+  margin-top: 0;
+  width: 8rem;
+  height: 6rem;
+  flex-direction: column;
+  margin-right: 0.6rem;
+  align-items: flex-start;
+  /* padding: 1rem; */
+}
+
+.languages {
+  display: flex;
+}
+
+/* about/end */
