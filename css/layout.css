@@ -8,7 +8,7 @@ body * {
 }
 
 body {
-  max-width: 18.75rem;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -94,7 +94,6 @@ button:disabled {
 /* Wrapper/start */
 
 .wrapper {
-  flex-wrap: wrap;
   padding: 0 1.3rem;
 }
 
@@ -115,6 +114,10 @@ button:disabled {
   border-radius: 50%;
 }
 
+.nav-menu {
+  display: none;
+}
+
 /* header/end */
 
 /* intro/start */
@@ -125,12 +128,20 @@ button:disabled {
   border-radius: 0 0 0% 100px;
 }
 
+.heading {
+  max-width: 18rem;
+}
+
+.wrapper p {
+  max-width: 23rem;
+}
+
 /* intro/end */
 
 /* works/start */
 
 .works .wrapper {
-  width: 16.35rem;
+  max-width: 30rem;
 }
 
 /* card/start */
