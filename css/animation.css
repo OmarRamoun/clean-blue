@@ -3,6 +3,17 @@
   animation:  wiggle 1s ease-in-out 0.1s 1;
 }
 
+.form-element:hover {
+  cursor: pointer;
+  transform: translate(10px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.form-element:not(:hover) {
+  transform: translate(0px);
+  transition: transform 0.2s ease-in-out;
+}
+
 @keyframes wiggle {
 	0% {
 		transform: rotate(0deg);
