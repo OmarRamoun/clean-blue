@@ -1,3 +1,9 @@
+button:hover {
+	transition-property: background-color, color;
+	transition-duration: 0.4s;
+	transition-timing-function: ease-in-out;
+}
+
 .logo {
   /* transform: rotate(45deg); */
   animation:  wiggle 1s ease-in-out 0.1s 1;
