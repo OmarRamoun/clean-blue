@@ -129,6 +129,10 @@ button:disabled {
   border-radius: 0 0 0% 100px;
 }
 
+.heading {
+  max-width: 18rem;
+}
+
 /* intro/end */
 
 /* works/start */
