@@ -1,12 +1,12 @@
 button:hover {
-	transition-property: background-color, color;
-	transition-duration: 0.4s;
-	transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
 }
 
 .logo {
   /* transform: rotate(45deg); */
-  animation:  wiggle 1s ease-in-out 0.1s 1;
+  animation: wiggle 1s ease-in-out 0.1s 1;
 }
 
 .form-element:hover {
@@ -16,7 +16,7 @@ button:hover {
 }
 
 .form-element:not(:hover) {
-  transform: translate(0px);
+  transform: translate(0);
   transition: transform 0.2s ease-in-out;
 }
 
@@ -27,36 +27,35 @@ img:hover {
 }
 
 @keyframes wiggle {
-	0% {
-		transform: rotate(0deg);
-	}
+  0% {
+    transform: rotate(0deg);
+  }
 
-	16% {
-		transform: rotate(20deg);
-	}
+  16% {
+    transform: rotate(20deg);
+  }
 
-	28% {
-		transform: rotate(100deg);
-	}
+  28% {
+    transform: rotate(100deg);
+  }
 
-	44% {
-		transform: rotate(180deg);
-	}
+  44% {
+    transform: rotate(180deg);
+  }
 
-	59% {
-		transform: rotate(360deg);
-	}
+  59% {
+    transform: rotate(360deg);
+  }
 
-	73% {
-		transform: rotate(200deg);
-	}
+  73% {
+    transform: rotate(200deg);
+  }
 
-	88% {
-		transform: rotate(350deg);
-	}
+  88% {
+    transform: rotate(350deg);
+  }
 
-	100% {
-		transform: rotate(360deg);
-	}
-
+  100% {
+    transform: rotate(360deg);
+  }
 }
