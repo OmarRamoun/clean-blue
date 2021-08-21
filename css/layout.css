@@ -148,7 +148,7 @@ button:disabled {
 }
 
 .works .wrapper {
-  width: 16.35rem;
+  max-width: 30rem;
 }
 
 /* card/start */
