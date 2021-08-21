@@ -67,6 +67,12 @@ body {
   margin-top: 1.2rem;
 }
 
+.footer .wrapper > * {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .card:nth-child(2n) > *:nth-child(1) {
   order: 1;
 }
@@ -95,6 +101,7 @@ body {
   flex-direction: column;
   margin-right: 0.6rem;
   align-items: flex-start;
+
   /* padding: 1rem; */
 }
 
@@ -105,12 +112,6 @@ body {
 /* about/end */
 
 /* footer/start */
-
-.footer .wrapper > * {
-  max-width: 26rem;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 #contact-form button {
   align-self: center;
