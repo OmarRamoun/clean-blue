@@ -158,6 +158,7 @@ button:disabled {
   padding: 0.8rem;
   border: 2px solid #dfe1e6;
   border-radius: 0.8rem;
+  max-width: 15rem;
 }
 
 .ellipse::after {
