@@ -94,7 +94,6 @@ button:disabled {
 /* Wrapper/start */
 
 .wrapper {
-  flex-wrap: wrap;
   padding: 0 1.3rem;
 }
 
@@ -131,6 +130,10 @@ button:disabled {
 
 .heading {
   max-width: 18rem;
+}
+
+.wrapper p {
+  max-width: 23rem;
 }
 
 /* intro/end */
