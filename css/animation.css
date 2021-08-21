@@ -1,0 +1,56 @@
+.logo {
+  /* transform: rotate(45deg); */
+  animation:  wiggle 1s ease-in-out 0.1s 1;
+}
+
+.form-element:hover {
+  cursor: pointer;
+  transform: translate(10px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.form-element:not(:hover) {
+  transform: translate(0px);
+  transition: transform 0.2s ease-in-out;
+}
+
+img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+@keyframes wiggle {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	16% {
+		transform: rotate(20deg);
+	}
+
+	28% {
+		transform: rotate(100deg);
+	}
+
+	44% {
+		transform: rotate(180deg);
+	}
+
+	59% {
+		transform: rotate(360deg);
+	}
+
+	73% {
+		transform: rotate(200deg);
+	}
+
+	88% {
+		transform: rotate(350deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+
+}
