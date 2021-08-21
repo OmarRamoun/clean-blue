@@ -30,3 +30,9 @@ body {
 }
 
 /* header/end */
+
+/* intro/start */
+
+.wrapper p {
+  max-width: 35rem;
+}
