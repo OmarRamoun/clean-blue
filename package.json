@@ -8,16 +8,21 @@
   },
   "dependencies": {
     "hint": "^6.1.4",
-    "package-lock": "^1.0.5",
+    "hover.css": "^2.3.2",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.19.0"
+    "stylelint-scss": "^3.19.0",
+    "package-lock": "^1.0.5"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
-    "imagemin": "^8.0.1"
+    "imagemin": "^8.0.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.20.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
