@@ -25,11 +25,26 @@ button:hover {
   transition: transform 0.2s ease-in-out;
 }
 
-img:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
+.hover-underline-animation {
+  position: relative;
 }
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 60%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -0.02rem;
+  left: 0;
+  background-color: var(--accent);
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation:hover:after {
+  animation: slide 1s ease-out infinite;
+}
+
 
 @keyframes wiggle {
   0% {
@@ -46,5 +61,26 @@ img:hover {
 
   100% {
     transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: scaleX(0);
+    transform-origin: bottom left;
+  }
+
+  50% {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  50.01% {
+    transform-origin: bottom right;
+  }
+
+  100% {
+    transform-origin: bottom right;
+    transform: scaleX(0);
   }
 }
