@@ -30,3 +30,10 @@ form.addEventListener('submit', function(event) {
     'event_callback': submitForm
   });
 });
+
+
+function get_resume() {
+  window.open(
+    "/resume/cv.pdf", "_blank");
+}
+
