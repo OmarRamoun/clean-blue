@@ -1,0 +1,263 @@
+{
+	"awards": {
+		"heading": "Awards",
+		"visible": true
+	},
+	"certifications": {
+		"heading": "Certifications",
+		"visible": true
+	},
+	"education": {
+		"heading": "Education",
+		"visible": true,
+		"items": [
+			{
+				"institution": "Alexandria Higher Institute For Engineering & Technology",
+				"field": "Computer Engineering",
+				"degree": "Bachelor's Degree",
+				"gpa": "",
+				"startDate": "2016-10-18",
+				"endDate": "2021-09-16",
+				"summary": "",
+				"id": "521986bf-e391-4bec-8fd3-a4da77d54a2a"
+			}
+		]
+	},
+	"hobbies": {
+		"heading": "Hobbies",
+		"visible": true
+	},
+	"languages": {
+		"heading": "Languages",
+		"visible": true,
+		"items": [
+			{
+				"name": "English",
+				"fluency": "Fluent",
+				"id": "fbf4b9d1-e904-4a4a-a14c-fd1df093ae78"
+			},
+			{
+				"name": "French",
+				"fluency": "Intermediate",
+				"id": "8c1a14b9-03c7-4005-afc5-ae412431dd09"
+			},
+			{
+				"name": "German",
+				"fluency": "Basic",
+				"id": "4051818c-b1cb-4939-a4bf-df9c57a1fd84"
+			}
+		]
+	},
+	"metadata": {
+		"colors": {
+			"background": "#FFFFFF",
+			"primary": "#5875DB",
+			"text": "#444444"
+		},
+		"font": "Raleway",
+		"fontSize": 9,
+		"language": "en",
+		"layout": {
+			"castform": [
+				[
+					"awards",
+					"certifications",
+					"languages",
+					"hobbies"
+				],
+				[
+					"objective",
+					"work",
+					"education",
+					"skills",
+					"projects",
+					"references"
+				]
+			],
+			"celebi": [
+				[
+					"awards",
+					"certifications",
+					"languages",
+					"hobbies"
+				],
+				[
+					"objective",
+					"work",
+					"education",
+					"skills",
+					"projects",
+					"references"
+				]
+			],
+			"gengar": [
+				[
+					"objective",
+					"skills"
+				],
+				[
+					"awards",
+					"certifications",
+					"languages",
+					"references",
+					"hobbies"
+				],
+				[
+					"work",
+					"education",
+					"projects"
+				]
+			],
+			"glalie": [
+				[
+					"awards",
+					"certifications",
+					"hobbies"
+				],
+				[
+					"objective",
+					"work",
+					"education",
+					"skills",
+					"projects",
+					"languages",
+					"references"
+				]
+			],
+			"onyx": [
+				[
+					"objective",
+					"work",
+					"education",
+					"projects"
+				],
+				[
+					"hobbies",
+					"languages",
+					"awards",
+					"certifications"
+				],
+				[
+					"skills",
+					"references"
+				]
+			],
+			"pikachu": [
+				[
+					"skills",
+					"languages",
+					"hobbies",
+					"awards",
+					"certifications"
+				],
+				[
+					"work",
+					"education",
+					"projects",
+					"references"
+				]
+			]
+		},
+		"template": "gengar"
+	},
+	"objective": {
+		"body": "Passionate problem-solver with an analytical and driven mindset. Has pretty good **experience in C++\n& Python** and a solid background in **reverse engineering**. Dedicated to achieving development\nobjectives according to tight schedules while producing impeccable code with _no compromises with\nregard to **code quality**_.",
+		"heading": "Profile",
+		"visible": true
+	},
+	"preview": "https://images.unsplash.com/photo-1629470035936-3296c3bd8237?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzMDIxMTMxNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
+	"profile": {
+		"address": {
+			"city": "Egypt",
+			"line1": "",
+			"line2": "Alexandria",
+			"pincode": "33611"
+		},
+		"birthDate": "1998-03-09",
+		"email": "omartarekramoun@gmail.com",
+		"firstName": "Omar",
+		"heading": "Profile",
+		"lastName": "Ramoun",
+		"photograph": "",
+		"subtitle": "Software Engineer",
+		"website": "ramoun.me",
+		"phone": "(+20) 1095219204"
+	},
+	"projects": {
+		"heading": "Projects",
+		"visible": true
+	},
+	"public": true,
+	"references": {
+		"heading": "References",
+		"visible": true
+	},
+	"skills": {
+		"heading": "Skills",
+		"visible": true,
+		"items": [
+			{
+				"name": "Ability to Communicate with People from Different Background and Cultures.",
+				"level": "",
+				"id": "e497b795-9b31-41be-9def-19055ac6c76b"
+			},
+			{
+				"name": "Time Management",
+				"level": "",
+				"id": "5c633358-f45f-45a5-b1a8-f75d21b52b39"
+			},
+			{
+				"name": "Algorithm Implementation",
+				"level": "",
+				"id": "fa639e83-2922-4520-9c9f-bbdab3e43bd8"
+			},
+			{
+				"name": "Automation using mainly C++ & Python",
+				"level": "",
+				"id": "aa31f066-3eb8-45a8-9dfc-f13a4ca6c6b2"
+			},
+			{
+				"name": "UI Development Using C++, JS, Html, CSS",
+				"level": "",
+				"id": "3e7443b3-a6e6-4f96-b344-96de78bc1dd8"
+			},
+			{
+				"name": "Reverse Engineering",
+				"level": "",
+				"id": "49f38f79-d25c-4909-b50d-071d7e185798"
+			},
+			{
+				"name": "Experience with Ms Office Suit",
+				"level": "",
+				"id": "a9d48208-d2ed-4f84-85e9-f0d41a858c5d"
+			}
+		]
+	},
+	"social": {
+		"heading": "Social Network",
+		"visible": true,
+		"items": [
+			{
+				"url": "https://twitter.com/ramoun16",
+				"network": "Twitter",
+				"username": "@ramoun16",
+				"id": "1abaea5d-8685-4b14-a963-7cecac3642ef"
+			}
+		]
+	},
+	"work": {
+		"heading": "Work Experience",
+		"visible": true,
+		"items": [
+			{
+				"company": "AlexWebDesign",
+				"position": "Software Engineer",
+				"website": "https://alexwebdesign.com/",
+				"startDate": "2020-06-10",
+				"endDate": "2021-01-12",
+				"summary": "- Drafted software requirements and managed **software design** and implementation.\n- Worked with UX designers to **design and build user interfaces** and iterate based on user feedback.\n- Implemented different **reverse-engineering techniques** to work with _vendor-software UI_.   \n- Used multiple **C++ frameworks** and libraries to implement **UI Solutions**.  \n- Prepared _detailed reports_ on updates to **project specifications, progress, identified conflicts**, and team activities.",
+				"id": "2e5aa173-9806-44e3-bb00-600d92d239cb"
+			}
+		]
+	}
+}
