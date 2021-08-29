@@ -16,8 +16,6 @@ button:hover {
 
 .form-element:hover {
   cursor: pointer;
-  transform: translate(10px);
-  transition: transform 0.3s ease-in-out;
 }
 
 .form-element:not(:hover) {
