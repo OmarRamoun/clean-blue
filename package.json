@@ -1,23 +1,32 @@
 {
-  "name": "webdev",
-  "version": "1.0.0",
-  "description": "a template for web apps",
+  "name": "ramoun.me",
+  "version": "1.1.0",
+  "description": "A software developer portfolio one page website",
   "main": "gulpfile.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
     "hint": "^6.1.4",
-    "package-lock": "^1.0.5",
+    "hover.css": "^2.3.2",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.19.0"
+    "stylelint-scss": "^3.19.0",
+    "package-lock": "^1.0.5"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
-    "imagemin": "^8.0.1"
+    "imagemin": "^8.0.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.20.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
