@@ -114,6 +114,7 @@ button:disabled {
 }
 
 .sm-view {
+  display: flex;
   position: fixed;
   top: 0;
   left: 0;
@@ -128,9 +129,11 @@ button:disabled {
   position: absolute;
   top: 3rem;
   right: 2rem;
+  background-color: #fff;
 }
 
 .sm-view ul {
+  display: flex;
   flex-direction: column;
   gap: 2rem;
   padding: 1.5rem;
@@ -139,6 +142,7 @@ button:disabled {
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 2.2rem;
+  height: 300px;
 }
 
 .sm-view .active {
