@@ -129,7 +129,12 @@ button:disabled {
   position: absolute;
   top: 3rem;
   right: 2rem;
-  background-color: #fff;
+  /* background-color: #fff; */
+  color: #fff;
+}
+
+.sm-view .none {
+  display: none;
 }
 
 .sm-view ul {
