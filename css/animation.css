@@ -27,7 +27,7 @@ button:hover {
   position: relative;
 }
 
-.hover-underline-animation:after {
+.hover-underline-animation::after {
   content: '';
   position: absolute;
   width: 60%;
@@ -39,10 +39,9 @@ button:hover {
   transform-origin: bottom left;
 }
 
-.hover-underline-animation:hover:after {
+.hover-underline-animation:hover::after {
   animation: slide 1s ease-out infinite;
 }
-
 
 @keyframes wiggle {
   0% {
