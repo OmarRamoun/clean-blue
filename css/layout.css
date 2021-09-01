@@ -129,6 +129,7 @@ button:disabled {
   position: absolute;
   top: 3rem;
   right: 2rem;
+
   /* background-color: #fff; */
   color: #fff;
 }
@@ -159,7 +160,7 @@ button:disabled {
 }
 
 .main-nav:hover {
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .main-nav ul li span {
