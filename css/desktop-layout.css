@@ -73,6 +73,10 @@ body {
   margin-right: auto;
 }
 
+.modal-container .card > *:not(img) {
+  width: 100%;
+}
+
 .card:nth-child(2n) > *:nth-child(1) {
   order: 1;
 }
@@ -124,10 +128,6 @@ body {
 .modal-container .wrapper {
   flex-direction: column;
   gap: 0.2rem;
-}
-
-.modal-container .card > *:not(img) {
-  width: 100%;
 }
 
 .modal-container img[alt="project"] {
