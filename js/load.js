@@ -28,7 +28,7 @@ const works = [
         link: '#',
         imgSrc: './images/social/github.svg',
       },
-  },
+    },
   },
   {
     id: 2,
