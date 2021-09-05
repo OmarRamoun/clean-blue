@@ -1,6 +1,5 @@
 const navBtn = document.querySelector('#menu-icon');
 
-// eslint-disable-next-line linebreak-style
 const toggleNavMenu = () => {
   const nav = document.querySelector('nav');
   nav.classList.toggle('sm-view');
