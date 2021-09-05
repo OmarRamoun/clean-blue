@@ -28,7 +28,7 @@ const works = [
         link: '#',
         imgSrc: './images/social/github.svg',
       },
-  },
+    },
   },
   {
     id: 2,
@@ -61,6 +61,35 @@ const works = [
   },
   {
     id: 3,
+    name: 'Tonic',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    fullDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    LongDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    image: {
+      src: `./images/snapshoot/snapshoot_${this.id}.svg`,
+      alt: 'Project image',
+    },
+    info: {
+      author: 'RAMOUN',
+      type: 'Back End Dev',
+      year: '2015',
+    },
+    technologies: ['html', 'css', 'JavaScript', 'cpp'],
+    buttons: {
+      live: {
+        text: 'see live',
+        link: '#',
+        imgSrc: './images/arrow.svg',
+      },
+      source: {
+        text: 'see source',
+        link: '#',
+        imgSrc: './images/social/github.svg',
+      },
+    },
+  },
+  {
+    id: 4,
     name: 'Tonic',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fullDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
@@ -195,15 +224,14 @@ for (let i = 1; i <= 4; i += 1) {
   div.appendChild(button);
 
   worksWrapper.appendChild(article);
-  // works.push(myWork);
 }
 
-function closeModal() {
+const closeModal = () => {
   const modal = document.querySelector('.modal-container');
   modal.remove();
-}
+};
 
-function displayPopup(work) {
+const displayPopup = (work) => {
   const modal = document.createElement('div');
   modal.classList.add('modal-container', 'flex', 'cross-center', 'main-center');
 
@@ -316,7 +344,7 @@ function displayPopup(work) {
   }
 
   document.body.appendChild(modal);
-}
+};
 
 const seeButtons = document.querySelectorAll('.see');
 
@@ -324,11 +352,4 @@ for (let i = 0; i < seeButtons.length; i += 1) {
   seeButtons[i].addEventListener('click', () => {
     displayPopup(works[i]);
   });
-}
-
-// eslint-disable-next-line no-plusplus
-for (let i = 0; i < 4; i++) {
-  console.log(works[i].name);
-  console.log(works[i].image.src);
-  console.log(works[i]);
 }
