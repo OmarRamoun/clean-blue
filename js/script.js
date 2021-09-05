@@ -7,7 +7,6 @@ const email = form.querySelector('input[type="email"]');
 form.addEventListener('submit', (event) => {
   // Prevents the browser from submitting the form
   // and thus unloading the current page.
-  console.log('event listener');
   if (!checkLower(email.value)) {
     event.preventDefault();
   } else {
