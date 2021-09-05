@@ -36,6 +36,33 @@ button:disabled {
   box-shadow: none;
 }
 
+#msg-bubble {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  text-align: center;
+  bottom: 2rem;
+  z-index: 3;
+  /* width: 30%; */
+  background: #fff;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  border-radius: 10px;
+  align-self: center;
+  height: auto;
+}
+
+#msg-bubble p {
+  margin-bottom: 0;
+  color:rgba(252, 64, 64, 0.84);
+}
+
+#msg-bubble span {
+  display: flex;
+  transform: translateX(0.25rem);
+}
+
 .lang > * {
   padding: 0.5rem 0;
   padding-left: 0.5rem;
@@ -48,6 +75,10 @@ button:disabled {
 .social {
   gap: 1rem;
   flex-basis: 100%;
+}
+
+#msg-bubble.show_hide {
+  bottom: -10rem;
 }
 
 .grid {
