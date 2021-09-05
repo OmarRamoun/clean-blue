@@ -1,6 +1,7 @@
-const button = document.querySelector('#menu-icon');
+const navBtn = document.querySelector('#menu-icon');
 
-function displayMenu() {
+// eslint-disable-next-line linebreak-style
+function toggleNavMenu() {
   const nav = document.querySelector('nav');
   nav.classList.toggle('sm-view');
   const menuIcon = document.querySelector('#menu-icon');
@@ -8,4 +9,4 @@ function displayMenu() {
   menuIcon.childNodes[1].classList.toggle('none');
 }
 
-button.addEventListener('click', displayMenu);
+navBtn.addEventListener('click', toggleNavMenu);
