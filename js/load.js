@@ -325,10 +325,3 @@ for (let i = 0; i < seeButtons.length; i += 1) {
     displayPopup(works[i]);
   });
 }
-
-// eslint-disable-next-line no-plusplus
-for (let i = 0; i < 4; i++) {
-  console.log(works[i].name);
-  console.log(works[i].image.src);
-  console.log(works[i]);
-}
