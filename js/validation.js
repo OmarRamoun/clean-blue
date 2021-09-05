@@ -17,7 +17,6 @@ const checkLower = (input) => {
     msgBubble.innerText = '';
     return true;
   } else {
-    // input.classList.add('email-input-error');
     msgBubble.firstChild.innerText = msgContent;
     showBubble();
     return false;
