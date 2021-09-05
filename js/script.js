@@ -20,12 +20,12 @@ form.addEventListener('submit', (event) => {
     // where the event callback function fires normally.
     let formSubmitted = false;
 
-    function submitForm() {
+    const submitForm = () => {
       if (!formSubmitted) {
         formSubmitted = true;
         form.submit();
       }
-    }
+    };
 
     // Sends the event to Google Analytics and
     // resubmits the form once the hit is done.

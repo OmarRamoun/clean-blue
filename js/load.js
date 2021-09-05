@@ -110,12 +110,12 @@ for (let i = 1; i <= 4; i += 1) {
   works.push(myWork);
 }
 
-function closeModal() {
+const closeModal = () => {
   const modal = document.querySelector('.modal-container');
   modal.remove();
-}
+};
 
-function displayPopup(work) {
+const displayPopup = (work) => {
   const modal = document.createElement('div');
   modal.classList.add('modal-container', 'flex', 'cross-center', 'main-center');
 
@@ -228,7 +228,7 @@ function displayPopup(work) {
   }
 
   document.body.appendChild(modal);
-}
+};
 
 const seeButtons = document.querySelectorAll('.see');
 
