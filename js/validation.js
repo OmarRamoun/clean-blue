@@ -2,7 +2,6 @@ const msgBubble = document.querySelector('#msg-bubble');
 const msgClsoeBtn = msgBubble.querySelector('span');
 const msgContent = 'The content of the email field has to be in lower case.';
 
-
 const removeBubble = () => {
   msgBubble.classList.add('show_hide');
 };
