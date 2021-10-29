@@ -12,11 +12,26 @@ body {
   margin: auto;
 }
 
+.hero * {
+  flex-basis: 100%;
+  margin-bottom: 0.6rem;
+}
+
 .social {
-  display: flex;
   gap: 1rem;
-  align-items: center;
   max-width: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-v-center {
+  align-items: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
 }
 
 /* Generl Rules/end */
@@ -24,9 +39,7 @@ body {
 /* Wrapper/start */
 
 .wrapper {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding: 0 1.3rem;
   width: 100%;
 }
@@ -39,14 +52,11 @@ header {
   padding: 1rem 0;
 }
 
-#logo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.logo {
   width: 5.9rem;
 }
 
-#logo img {
+.logo img {
   height: 1.6rem;
   border-radius: 50%;
 }
@@ -61,17 +71,4 @@ header {
   border-bottom-left-radius: 15%;
 }
 
-.hero * {
-  flex-basis: 100%;
-  margin-bottom: 0.6rem;
-}
-
 /* intro/end */
-
-/* works/start */
-/* card/begin */
-/* card/end */
-/* works/end */
-
-/* about/begin */
-/* about/end */

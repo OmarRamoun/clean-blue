@@ -13,8 +13,16 @@ body {
   background-color: var(--gray, #e5e5e5);
 }
 
+li {
+  list-style-type: none;
+}
+
 .bg {
   background-color: var(--white, #fff);
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .hero h1 {
@@ -23,27 +31,28 @@ body {
   line-height: 2.6rem;
 }
 
+.hero p,
+.hero a {
+  font-size: 0.8rem;
+}
+
 .hero p {
   color: var(--black-light, #344563);
-  font-size: 0.8rem;
   line-height: 1.2rem;
 }
 
 .hero a {
   color: var(--accent-light, #7f8cff);
-  font-size: 0.8rem;
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 /* General Rules/end */
 
 /* header/start */
 
-#logo {
+.logo {
   color: var(--accent, #6070ff);
   font-size: 0.9rem;
-  font-weight: bold;
 }
 
 /* header/end */
@@ -57,13 +66,3 @@ body {
 }
 
 /* intro/end */
-
-/* works/start */
-/* card-header/begin */
-/* card-header/end */
-/* card-content/begin */
-/* card-content/end */
-/* works/end */
-
-/* about/start */
-/* about/end */
