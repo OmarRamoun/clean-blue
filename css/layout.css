@@ -1,3 +1,77 @@
-* {
+/* Generl Rules/start */
+
+*,
+body,
+body * {
   outline: none;
+  box-sizing: border-box;
 }
+
+body {
+  max-width: 18.75rem;
+  margin: auto;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  max-width: 2rem;
+}
+
+/* Generl Rules/end */
+
+/* Wrapper/start */
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 1.3rem;
+  width: 100%;
+}
+
+/* Wrapper/end */
+
+/* header/start */
+
+header {
+  padding: 1rem 0;
+}
+
+#logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 5.9rem;
+}
+
+#logo img {
+  height: 1.6rem;
+  border-radius: 50%;
+}
+
+/* header/end */
+
+/* intro/start */
+
+.intro {
+  height: 30rem;
+  padding-top: 4.2rem;
+  border-bottom-left-radius: 15%;
+}
+
+.hero * {
+  flex-basis: 100%;
+  margin-bottom: 0.6rem;
+}
+
+/* intro/end */
+
+/* works/start */
+/* card/begin */
+/* card/end */
+/* works/end */
+
+/* about/begin */
+/* about/end */
