@@ -1,27 +1,25 @@
 [![](https://img.shields.io/static/v1?label=BY&message=RAMOUN&color=birghtgreen)](https://mrramoun.github.io)
 
-# Project Name
+# Ramoun's Portfolio
 
-> One paragraph statement about the project.
+> A Simple Portfolio App for a Web developer.
 
 ![screenshot](images/app_screenshot.png)
 
-| *Additional description about the project and its features.*
+| *The Project contains a showcase with all my works.*
 
 ## Built With
 
 - Languages: _**HTML, CSS**_
-- Frameworks: _**N/A**_
 - Technologies used: _**GIT, GITHUB, LINTERS**_
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mrramoun.github.io/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**Start by cloning the repo and setup the gulpfile + linters.**
 
 To get a local copy up and running follow these simple example steps.
 
@@ -54,15 +52,23 @@ To get a local copy up and running follow these simple example steps.
   1. **Run** `npm install gulp --save-dev`
   1. **Run** `npm install gulp-autoprefixer --save-dev`
 
+- install **lighthouse** linter
+
+  1. **Run** `npm install -g lighthouse`
+
 ### Usage
 
 ### Run tests
 
+- run **Gulp** tasks
+  - **Run** `gulp <name-of-task>` on the root of your directory of your project.
 - run **Webhint** linter
   - **Run** `npx hint .` on the root of your directory of your project.
 - run **Stylelint** linter
   - **Run** `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
-  - **Run** `gulp <name-of-task>` on the root of your directory of your project.
+- run **Lighthouse** linter
+  - **Open** chrome and run from _dev tools_ or through the _extension_.
+  - **Run** `npx lighthouse --output json --output-path "**/lighthouse-report.json"` on the root of your directory of your project.
 
 ### Deployment
 
@@ -74,17 +80,11 @@ To get a local copy up and running follow these simple example steps.
 - **Twitter**: [![@ramoun16](https://img.shields.io/twitter/follow/ramoun16?label=ramoun16&style=social)](https://twitter.com/ramoun16)
 - **LinkdIn**: [![@ramoun](https://img.shields.io/github/followers/ramon?label=ramoun&logo=linkedin&style=social)](https://www.linkedin.com/in/ramoun/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MrRamoun/WEBDEV/issues).
+Feel free to check the [issues page](https://github.com/MrRamoun/portfolio/issues).
 
 ## Show your support
 
@@ -92,9 +92,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- My Passion For Computers
 
 ## 📝 License
 
