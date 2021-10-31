@@ -5,16 +5,25 @@
   --black-light: #344563;
   --accent: #6070ff;
   --accent-light: #7f8cff;
-  --gray: #e5e5e5;
+  --blue: #396df2;
+  --blue-light: #ebebff;
+  --gray: #7a869a;
+  --gray-light: #e5e5e5;
   --white: #fff;
 }
 
 body {
-  background-color: var(--gray, #e5e5e5);
+  background-color: var(--gray-light, #e5e5e5);
 }
 
-li {
+li,
+summary {
   list-style-type: none;
+}
+
+button {
+  color: var(--blue, #396df2);
+  text-transform: capitalize;
 }
 
 .bg {
@@ -25,7 +34,31 @@ li {
   font-weight: bold;
 }
 
-.hero h1 {
+.upper {
+  text-transform: uppercase;
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
+.black {
+  color: var(--black, #172b4d);
+}
+
+.gray {
+  color: var(--gray, #7a869a);
+}
+
+.highlight {
+  color: var(--black-light, #344563);
+}
+
+.line-height {
+  line-height: 0.8rem;
+}
+
+.hero .heading {
   color: var(--black, #172b4d);
   font-size: 2rem;
   line-height: 2.6rem;
@@ -41,9 +74,9 @@ li {
   line-height: 1.2rem;
 }
 
-.hero a {
+.hero a,
+.tags a {
   color: var(--accent-light, #7f8cff);
-  text-transform: uppercase;
 }
 
 /* General Rules/end */
@@ -66,3 +99,34 @@ li {
 }
 
 /* intro/end */
+
+/* work/start */
+
+/* card-header/start */
+
+.card h3 {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+.category {
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+
+/* card-header/end */
+
+/* card-content/begin */
+
+.content p {
+  font-size: 0.75rem;
+}
+
+.tags a {
+  background-color: var(--blue-light, #ebebff);
+  font-size: 0.6rem;
+  letter-spacing: 0.03rem;
+}
+/* card-content/end */
+
+/* work/end */
