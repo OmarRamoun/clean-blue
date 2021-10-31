@@ -113,6 +113,8 @@ summary img {
 .works {
   margin-top: 5.7rem;
   margin-bottom: 5.7rem;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .works .wrapper {
