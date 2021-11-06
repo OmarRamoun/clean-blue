@@ -23,11 +23,28 @@ summary {
 
 button {
   color: var(--blue, #396df2);
-  text-transform: capitalize;
+}
+
+button:hover {
+  color: var(--white, #fff);
+  background-color: var(--accent, #6070ff);
+}
+
+button:active {
+  background-color: #2230d2;
+}
+
+button:disabled {
+  background-color: var(--white, #fff);
+  color: #5e6c84;
 }
 
 .bg {
   background-color: var(--white, #fff);
+}
+
+.center {
+  text-align: center;
 }
 
 .bold {
@@ -109,7 +126,7 @@ button {
   line-height: 2.2rem;
 }
 
-.category {
+.info li * {
   font-size: 0.65rem;
   font-weight: 600;
 }
@@ -131,3 +148,40 @@ button {
 /* card-content/end */
 
 /* work/end */
+
+.lang {
+  background: #f7f7f9;
+}
+
+/* footer/start */
+
+.footer .wrapper {
+  background-image: url("../images/footer-bg.svg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: var(--accent);
+}
+
+.footer .heading,
+.footer p {
+  color: #fff;
+}
+
+.footer p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.form-element {
+  color: var(--black, #172b4d);
+  font-family: poppins, sans-serif;
+  font-size: 0.85rem;
+}
+
+.form-element::placeholder {
+  color: #b3bac5;
+  font-size: 0.75rem;
+}
+
+/* footer/end */
