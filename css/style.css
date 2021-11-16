@@ -71,6 +71,10 @@ button:disabled {
   color: var(--black-light, #344563);
 }
 
+.active {
+  color: var(--accent);
+}
+
 .line-height {
   line-height: 0.8rem;
 }
@@ -93,7 +97,7 @@ button:disabled {
 
 .hero a,
 .tags a {
-  color: var(--accent-light, #7f8cff);
+  color: var(--accent, #7f8cff);
 }
 
 /* General Rules/end */

@@ -11,10 +11,11 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/-debug.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" type="text/css" media="all and (min-width: 700px)" href="css/desktop-style.css" />
   <link rel="stylesheet" type="text/css" media="all and (min-width: 700px)" href="css/desktop-layout.css" />
   <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/-debug.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -36,16 +37,22 @@
   <!-- header -->
   <header class="main-header bg">
     <div class="wrapper flex space-between cross-center">
-      <a class="logo bold flex space-between cross-center" href="./">
+      <a class="logo clip bold flex space-between cross-center" href="./">
         <img src="./images/darwin.jpg" alt="Ramoun's logo">
         <span>Ramoun</span>
       </a>
       <nav class="main-nav">
         <img src="./images/menu.svg" alt="menu">
         <ul class="nav-menu space-between cross-center cap">
-          <li><a href="./">home</a></li>
-          <li><a href="./about.html">about</a></li>
-          <li><a href="./contact.html">contact</a></li>
+          <li class="flex main-center active"><a href="./">home</a>
+          <span></span>
+          </li>
+          <li class="flex main-center"><a href="#about">about</a>
+          <span></span>
+          </li>
+          <li class="flex main-center"><a href="#contact-form">contact</a>
+          <span></span>
+          </li>
         </ul>
       </nav>
     </div>
@@ -57,20 +64,21 @@
       <h1 class="heading">I’m&nbsp;Ramoun Glad&nbsp;to&nbsp;see you!</h1>
       <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and
         experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-      <a class="bold upper" href="#contact-form">let's connect</a>
+      <div class="cta">
+        <a class="hover-underline-animation bold upper" href="#contact-form">let's connect</a>
+      </div>
       <ul class="social flex cross-center">
-        <li><a href="https://twitter.com/ramoun16"><img src="./images/social/twitter.svg" alt="twitter"></a></li>
-        <li><a href="https://www.linkedin.com/in/ramoun"><img src="./images/social/linkedin.svg" alt="linked in"></a></li>
-        <li><a href="https://medium.com/@omartarekramoun"><img src="./images/social/medium.svg" alt="medium"></a></li>
-        <li><a href="https://github.com/mrramoun"><img src="./images/social/github.svg" alt="github"></a></li>
-        <li><a href="https://angel.co/u/omar-ramoun"><img src="./images/social/vector.svg" alt="angel list"></a></li>
+        <li class="hvr-wobble-top"><a href="https://twitter.com/ramoun16"><img src="./images/social/twitter.svg" alt="twitter"></a></li>
+        <li class="hvr-wobble-top"><a href="https://www.linkedin.com/in/ramoun"><img src="./images/social/linkedin.svg" alt="linked in"></a></li>
+        <li class="hvr-wobble-top"><a href="https://medium.com/@omartarekramoun"><img src="./images/social/medium.svg" alt="medium"></a></li>
+        <li class="hvr-wobble-top"><a href="https://github.com/mrramoun"><img src="./images/social/github.svg" alt="github"></a></li>
+        <li class="hvr-wobble-top"><a href="https://angel.co/u/omar-ramoun"><img src="./images/social/vector.svg" alt="angel list"></a></li>
       </ul>
     </div>
   </section>
 
   <!-- works -->
-  <section class="works margin-seprator flex main-center">
-    <h2>My Projects</h2>
+  <section id="works" class="works margin-seprator flex main-center">
     <div class="wrapper grid main-center">
       <article class="card flex flex-column bg">
         <img src="./images/snapshoot/snapshoot_1.svg" alt="project 1">
@@ -88,6 +96,7 @@
             <li><a class="line-height round-borders" href="#">html</a></li>
             <li><a class="line-height round-borders" href="#">css</a></li>
             <li><a class="line-height round-borders" href="#">javaScript</a></li>
+            <li><a class="line-height round-borders" href="#">cpp</a></li>
           </ul>
           <button class="bg round-borders cap" type="button">see project</button>
         </div>
@@ -106,8 +115,8 @@
           </ul>
           <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
           <ul class="tags flex">
-            <li><a class="line-height round-borders" href="#">html</a></li>
-            <li><a class="line-height round-borders" href="#">css</a></li>
+            <li><a class="line-height round-borders" href="#">cpp</a></li>
+            <li><a class="line-height round-borders" href="#">c#</a></li>
             <li><a class="line-height round-borders" href="#">javaScript</a></li>
           </ul>
           <button class="bg round-borders cap" type="button">see project</button>
@@ -159,20 +168,22 @@
   </section>
 
   <!-- about -->
-  <section class="about margin-seprator bg">
+  <section id="about" class="about margin-seprator bg">
     <div class="wrapper hero flex space-between flex-column">
       <div class="left-side hero flex space-between flex-column">
         <h2 class="heading bold cap margin-seprator">About <br> Myself</h2>
         <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        <a class="bold upper" href="#contact-form">let's connect</a>
+        <div class="cta">
+          <a class="hover-underline-animation bold upper" href="#contact-form">let's connect</a>
+        </div>
         <ul class="social flex cross-center">
-          <li><a href="https://twitter.com/ramoun16"><img src="./images/social/twitter.svg" alt="twitter"></a></li>
-          <li><a href="https://www.linkedin.com/in/ramoun"><img src="./images/social/linkedin.svg" alt="linkedin"></a></li>
-          <li><a href="https://medium.com/@omartarekramoun"><img src="./images/social/medium.svg" alt="medium"></a></li>
-          <li><a href="https://github.com/mrramoun"><img src="./images/social/github.svg" alt="github"></a></li>
-          <li><a href="https://angel.co/u/omar-ramoun"><img src="./images/social/vector.svg" alt="angel list"></a></li>
+          <li class="hvr-wobble-top"><a href="https://twitter.com/ramoun16"><img src="./images/social/twitter.svg" alt="twitter"></a></li>
+          <li class="hvr-wobble-top"><a href="https://www.linkedin.com/in/ramoun"><img src="./images/social/linkedin.svg" alt="linkedin"></a></li>
+          <li class="hvr-wobble-top"><a href="https://medium.com/@omartarekramoun"><img src="./images/social/medium.svg" alt="medium"></a></li>
+          <li class="hvr-wobble-top"><a href="https://github.com/mrramoun"><img src="./images/social/github.svg" alt="github"></a></li>
+          <li class="hvr-wobble-top"><a href="https://angel.co/u/omar-ramoun"><img src="./images/social/vector.svg" alt="angel list"></a></li>
         </ul>
-        <button class="bg round-borders cap" type="button">get my resume</button>
+        <button class="bg round-borders cap" type="button" onclick="get_resume()">get my resume</button>
       </div>
       <ul class="skills hero flex flex-column full-width">
         <li>
@@ -192,6 +203,10 @@
               <li class="lang flex cross-center round-borders">
                 <img src="./images/lingos/css.svg" alt="">
                 <span>CSS</span>
+              </li>
+              <li class="lang flex cross-center round-borders">
+                <img src="./images/lingos/cpp.png" alt="">
+                <span>C++</span>
               </li>
             </ul>
           </details>
@@ -217,22 +232,24 @@
   </section>
 
   <!-- footer -->
-  <footer class="footer bg">
+  <footer id="footer" class="footer bg">
     <div class="wrapper hero flex flex-column">
       <h2 class="heading bold cap center">contact me</h2>
       <p class="center">If you have an application you are interested in developing, a feature that you need built or a
         project that needs coding. I’d love to help with it</p>
       <form id="contact-form" class="hero flex flex-column full-width" action="https://formspree.io/f/mrgroknj" method="post">
-        <input class="form-element round-borders" type="text" id="name" name="user_name"
+        <input class="form-element round-borders hvr-buzz-out" type="text" id="name" name="user_name"
           placeholder="Name (ex: John Does)" maxlength="30" required>
-        <input class="form-element round-borders" type="email" id="mail" name="user_email"
+        <input class="form-element round-borders hvr-buzz-out" type="email" id="mail" name="user_email"
           placeholder="Email (ex: john@gmail.com" required>
-        <textarea class="form-element round-borders" id="msg" name="user_message" placeholder="Write your message here"
+        <textarea class="form-element round-borders hvr-buzz-out" id="msg" name="user_message" placeholder="Write your message here"
           maxlength="500" required></textarea>
         <button class="bg round-borders cap" type="submit">get in touch</button>
       </form>
     </div>
   </footer>
+
+  <script src="/js/script.js"></script>
 </body>
 
 </html>
