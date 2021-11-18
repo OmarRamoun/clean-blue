@@ -1,4 +1,4 @@
-const button = document.querySelector('#menu-icon');
+const navBtn = document.querySelector('#menu-icon');
 
 function displayMenu() {
   if (window.innerWidth < 768) {
@@ -10,4 +10,4 @@ function displayMenu() {
   }
 }
 
-button.addEventListener('click', displayMenu);
+navBtn.addEventListener('click', displayMenu);
