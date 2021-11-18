@@ -42,15 +42,22 @@
         <span>Ramoun</span>
       </a>
       <nav class="main-nav">
-        <img src="./images/menu.svg" alt="menu">
+        <a id="menu-icon" href="#">
+          <svg class="none" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H17C17.5523 0 18 0.447715 18 1C18 1.55228 17.5523 2 17 2H1C0.447715 2 0 1.55228 0 1ZM0 6C0 5.44772 0.447715 5 1 5L17 5C17.5523 5 18 5.44772 18 6C18 6.55229 17.5523 7 17 7L1 7C0.447715 7 0 6.55228 0 6ZM1 10C0.447715 10 0 10.4477 0 11C0 11.5523 0.447715 12 1 12H17C17.5523 12 18 11.5523 18 11C18 10.4477 17.5523 10 17 10H1Z" fill="rgb(96, 112, 255)"/>
+          </svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="white"/>
+          </svg>
+        </a>
         <ul class="nav-menu space-between cross-center cap">
-          <li class="flex main-center active"><a href="./">home</a>
+          <li class="flex main-center active"><a onclick="displayMenu()" href="#works">portfolio</a>
           <span></span>
           </li>
-          <li class="flex main-center"><a href="#about">about</a>
+          <li class="flex main-center"><a onclick="displayMenu()" href="#about">about</a>
           <span></span>
           </li>
-          <li class="flex main-center"><a href="#contact-form">contact</a>
+          <li class="flex main-center"><a onclick="displayMenu()" href="#contact-form">contact</a>
           <span></span>
           </li>
         </ul>
@@ -233,7 +240,7 @@
 
   <!-- footer -->
   <footer id="footer" class="footer bg">
-    <div class="wrapper hero flex flex-column">
+    <div class="wrapper hero flex flex-column cross-center">
       <h2 class="heading bold cap center">contact me</h2>
       <p class="center">If you have an application you are interested in developing, a feature that you need built or a
         project that needs coding. I’d love to help with it</p>
@@ -249,7 +256,8 @@
     </div>
   </footer>
 
-  <script src="/js/script.js"></script>
+  <script src="./js/dom.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
