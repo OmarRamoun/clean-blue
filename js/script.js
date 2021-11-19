@@ -11,7 +11,6 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   } else {
     // Creates a timeout to call submitForm after one second.
-    // eslint-disable-next-line no-use-before-define
     setTimeout(submitForm, 1000);
 
     // Monitors whether or not the form has been submitted.
@@ -34,7 +33,6 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-// eslint-disable-next-line camelcase
 function get_resume() {
   window.open(
     '/resume/cv.pdf', '_blank',
