@@ -1,7 +1,7 @@
 const contactForm = document.querySelector('#contact-form');
 const nameField = contactForm.querySelector('#name');
 const emailField = contactForm.querySelector('#mail');
-const messageField = document.querySelector('#user_message');
+const messageField = contactForm.querySelector('#msg');
 
 const saveDate = () => {
   const formData = {
@@ -20,5 +20,5 @@ window.addEventListener('load', () => {
   const formData = JSON.parse(localStorage.getItem('formData'));
   nameField.value = formData.name;
   emailField.value = formData.email;
-  messageField.value = formData.message;
+  messageField.value = formData.msg;
 });
