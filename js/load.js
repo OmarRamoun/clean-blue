@@ -195,15 +195,14 @@ for (let i = 1; i <= 4; i += 1) {
   div.appendChild(button);
 
   worksWrapper.appendChild(article);
-  // works.push(myWork);
 }
 
-function closeModal() {
+const closeModal = () => {
   const modal = document.querySelector('.modal-container');
   modal.remove();
-}
+};
 
-function displayPopup(work) {
+const displayPopup = (work) => {
   const modal = document.createElement('div');
   modal.classList.add('modal-container', 'flex', 'cross-center', 'main-center');
 
@@ -316,7 +315,7 @@ function displayPopup(work) {
   }
 
   document.body.appendChild(modal);
-}
+};
 
 const seeButtons = document.querySelectorAll('.see');
 
@@ -324,11 +323,4 @@ for (let i = 0; i < seeButtons.length; i += 1) {
   seeButtons[i].addEventListener('click', () => {
     displayPopup(works[i]);
   });
-}
-
-// eslint-disable-next-line no-plusplus
-for (let i = 0; i < 4; i++) {
-  console.log(works[i].name);
-  console.log(works[i].image.src);
-  console.log(works[i]);
 }
