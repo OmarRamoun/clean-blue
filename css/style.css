@@ -14,7 +14,6 @@
 
 body {
   background-color: var(--gray-light, #e5e5e5);
-  scroll-behaviour:smooth;
 }
 
 li,
