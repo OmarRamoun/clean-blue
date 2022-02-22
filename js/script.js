@@ -7,10 +7,12 @@ const email = form.querySelector('input[type="email"]');
 form.addEventListener('submit', (event) => {
   // Prevents the browser from submitting the form
   // and thus unloading the current page.
+  // eslint-disable-next-line
   if (!checkLower(email.value)) {
     event.preventDefault();
   } else {
     // Creates a timeout to call submitForm after one second.
+    // eslint-disable-next-line
     setTimeout(submitForm, 1000);
 
     // Monitors whether or not the form has been submitted.
@@ -27,14 +29,16 @@ form.addEventListener('submit', (event) => {
 
     // Sends the event to Google Analytics and
     // resubmits the form once the hit is done.
+    // eslint-disable-next-line
     gtag('event', 'signup_form_complete', {
       event_callback: submitForm,
     });
   }
 });
 
+// eslint-disable-next-line
 function get_resume() {
   window.open(
-    '/resume/cv.pdf', '_blank',
+    '/resume/resume.pdf', '_blank',
   );
 }
