@@ -17,8 +17,10 @@ emailField.addEventListener('change', saveDate);
 messageField.addEventListener('change', saveDate);
 
 window.addEventListener('load', () => {
-  const formData = JSON.parse(localStorage.getItem('formData'));
-  nameField.value = formData.name;
-  emailField.value = formData.email;
-  messageField.value = formData.msg;
+  if (localStorage) {
+    const formData = JSON.parse(localStorage.getItem('formData'));
+    nameField.value = formData.name;
+    emailField.value = formData.email;
+    messageField.value = formData.msg;
+  }
 });

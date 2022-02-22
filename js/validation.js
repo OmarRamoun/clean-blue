@@ -10,11 +10,13 @@ const showBubble = () => {
   msgBubble.classList.remove('show_hide');
 };
 
+// eslint-disable-next-line
 const checkLower = (input) => {
   if (input === input.toLowerCase()) {
     removeBubble();
     msgBubble.innerText = '';
     return true;
+    // eslint-disable-next-line
   } else {
     msgBubble.firstChild.innerText = msgContent;
     showBubble();

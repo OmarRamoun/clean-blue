@@ -3,116 +3,116 @@ const worksWrapper = document.querySelector('#works .wrapper');
 const works = [
   {
     id: 1,
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    fullDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    LongDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    name: 'Wonka Converence',
+    description: 'Wonka Converence is the world conference for family doctors.',
+    fullDescription: 'Wonka Converence 2021 Made with Vanilla HTML5, CSS3, & JS. The Website Contains A Homepage With Information About The Main Program Of The Conference Speakers And Partners And An About Page With Information About The Conference.election of privately personalized reads; no accounts or sign-ups required.',
+    LongDescription: 'Wonka Converence 2021 Made with Vanilla HTML5, CSS3, & JS. The Website Contains A Homepage With Information About The Main Program Of The Conference Speakers And Partners And An About Page With Information About The Conference.election of privately personalized reads; no accounts or sign-ups required.',
     image: {
-      src: `./images/snapshoot/snapshoot_${this.id}.svg`,
+      src: `./images/snapshoot/snapshoot_${this.id}.png`,
       alt: 'Project image',
     },
     info: {
       author: 'RAMOUN',
-      type: 'Back End Dev',
-      year: '2015',
+      type: 'Front End Dev',
+      year: '2021',
     },
-    technologies: ['html', 'css', 'JavaScript', 'cpp'],
+    technologies: ['html5', 'css3', 'JavaScript'],
     buttons: {
       live: {
         text: 'see live',
-        link: '#',
+        link: 'https://ramoun.me/Wonka-Conference/',
         imgSrc: './images/arrow.svg',
       },
       source: {
         text: 'see source',
-        link: '#',
+        link: 'https://github.com/MrRamoun/Wonka-Conference',
         imgSrc: './images/social/github.svg',
       },
-  },
+    },
   },
   {
     id: 2,
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    fullDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    LongDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    name: 'Awesome Books',
+    description: 'A simple website that displays a list of books and allows you to add and remove books from that list.',
+    fullDescription: "A Web Application that Helps You Save Your Favorite Books in a List Alongside Author's Name and Gives You the Option to Edit, Remove, Add Books. Made using HTML5, CSS3, ES6, Bootstrap.",
+    LongDescription: "A Web Application that Helps You Save Your Favorite Books in a List Alongside Author's Name and Gives You the Option to Edit, Remove, Add Books. Made using HTML5, CSS3, ES6, Bootstrap",
     image: {
-      src: `./images/snapshoot/snapshoot_${this.id}.svg`,
+      src: `./images/snapshoot/snapshoot_${this.id}.png`,
       alt: 'Project image',
     },
     info: {
       author: 'RAMOUN',
-      type: 'Back End Dev',
-      year: '2015',
+      type: 'Front End Dev',
+      year: '2022',
     },
-    technologies: ['html', 'css', 'JavaScript', 'cpp'],
+    technologies: ['html5', 'Bootstrap5', 'ES6'],
     buttons: {
       live: {
         text: 'see live',
-        link: '#',
+        link: 'https://ramoun.me/Awesome-Books/',
         imgSrc: './images/arrow.svg',
       },
       source: {
         text: 'see source',
-        link: '#',
+        link: 'https://github.com/MrRamoun/Awesome-Books',
         imgSrc: './images/social/github.svg',
       },
     },
   },
   {
     id: 3,
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    fullDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    LongDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    name: 'TO-DO List',
+    description: 'To-Do List helps you organize your tasks. It lists the things that you need to do and allows you to mark them as completed.',
+    fullDescription: 'To-do List Helps You Organize Your Tasks. It Lists The Things That You Need To Do And Allows You To Mark Them As Completed. Built Using Es6 And Webpack, And It Has The CRUD Features',
+    LongDescription: 'To-Do List helps you organize your tasks. It lists the things that you need to do and allows you to mark them as completed. Built using ES6 and Webpack, and it has the following features: ➕ Adding a new item, ❌ Removing a selected item, ✔️ Marking a selected item as complete, 🔴 Removing all items marked as complete at once, and 🚮 Reordering a selected item (as drag-and-drop).',
     image: {
-      src: `./images/snapshoot/snapshoot_${this.id}.svg`,
+      src: `./images/snapshoot/snapshoot_${this.id}.png`,
       alt: 'Project image',
     },
     info: {
       author: 'RAMOUN',
-      type: 'Back End Dev',
-      year: '2015',
+      type: 'Front End Dev',
+      year: '2021',
     },
-    technologies: ['html', 'css', 'JavaScript', 'cpp'],
+    technologies: ['HTML5', 'CSS3', 'ES6'],
     buttons: {
       live: {
         text: 'see live',
-        link: '#',
+        link: 'https://ramoun.me/to-do-list/',
         imgSrc: './images/arrow.svg',
       },
       source: {
         text: 'see source',
-        link: '#',
+        link: 'https://github.com/MrRamoun/to-do-list',
         imgSrc: './images/social/github.svg',
       },
     },
   },
   {
     id: 4,
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    fullDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    LongDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    name: 'New York Times Clone',
+    description: 'A clone of a NYT Article made using css3 features: box-model, flexbox, grid, positioning, and transormations.',
+    fullDescription: 'A Clone Of an Archived Page of One of The New York Times\'s Articles From 2014. Made Using Vanilla Html5 And Css3. Implementing All Modern Css3 Features Like Flexbox, Grid, Animation, ...etc.',
+    LongDescription: 'A Clone Of an Archived Page of One of The New York Times\'s Articles From 2014. Made Using Vanilla Html5 And Css3. Implementing All Modern Css3 Features Like Flexbox, Grid, Animation, ...etc.',
     image: {
-      src: `./images/snapshoot/snapshoot_${this.id}.svg`,
+      src: `./images/snapshoot/snapshoot_${this.id}.png`,
       alt: 'Project image',
     },
     info: {
       author: 'RAMOUN',
-      type: 'Back End Dev',
-      year: '2015',
+      type: 'Front End Dev',
+      year: '2020',
     },
-    technologies: ['html', 'css', 'JavaScript', 'cpp'],
+    technologies: ['HTML5', 'CSS3'],
     buttons: {
       live: {
         text: 'see live',
-        link: '#',
+        link: 'https://ramoun.me/NYT-Article-Clone/',
         imgSrc: './images/arrow.svg',
       },
       source: {
         text: 'see source',
-        link: '#',
+        link: 'https://github.com/MrRamoun/NYT-Article-Clone',
         imgSrc: './images/social/github.svg',
       },
     },
@@ -122,8 +122,7 @@ const works = [
 for (let i = 1; i <= 4; i += 1) {
   const myWork = works[i - 1];
   myWork.id = i;
-  myWork.name = `Tonic ${i}`;
-  myWork.image = { src: `./images/snapshoot/snapshoot_${i}.svg`, alt: 'Project image' };
+  myWork.image = { src: `./images/snapshoot/snapshoot_${i}.png`, alt: 'Project image' };
 
   const article = document.createElement('article');
   article.classList.add('card', 'flex', 'flex-column', 'bg');
@@ -274,7 +273,7 @@ const displayPopup = (work) => {
   modalContent.appendChild(modalHero);
 
   const modalDescription = document.createElement('p');
-  modalDescription.innerHTML = work.description;
+  modalDescription.innerHTML = work.fullDescription;
   modalHero.appendChild(modalDescription);
 
   const modalSide = document.createElement('div');
@@ -306,6 +305,15 @@ const displayPopup = (work) => {
     modalFooterBtn.type = 'button';
     const textSpan = document.createElement('span');
     textSpan.innerHTML = work.buttons[Object.keys(work.buttons)[i]].text;
+    if (i === 0) {
+      modalFooterBtn.addEventListener('click', () => {
+        window.location.href = work.buttons.live.link;
+      });
+    } else {
+      modalFooterBtn.addEventListener('click', () => {
+        window.location.href = work.buttons.source.link;
+      });
+    }
     modalFooterBtn.appendChild(textSpan);
     const imgSpan = document.createElement('img');
     imgSpan.setAttribute('src', work.buttons[Object.keys(work.buttons)[i]].imgSrc);
