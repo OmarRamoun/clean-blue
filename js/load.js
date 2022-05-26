@@ -20,12 +20,12 @@ const works = [
     buttons: {
       live: {
         text: 'see live',
-        link: 'https://ramoun.me/Wonka-Conference/',
+        link: 'https://omarramoun.github.io/Wonka-Conference/',
         imgSrc: './images/arrow.svg',
       },
       source: {
         text: 'see source',
-        link: 'https://github.com/MrRamoun/Wonka-Conference',
+        link: 'https://github.com/omarramoun/Wonka-Conference',
         imgSrc: './images/social/github.svg',
       },
     },
@@ -49,12 +49,12 @@ const works = [
     buttons: {
       live: {
         text: 'see live',
-        link: 'https://ramoun.me/Awesome-Books/',
+        link: 'https://omarramoun.github.io/Awesome-Books/',
         imgSrc: './images/arrow.svg',
       },
       source: {
         text: 'see source',
-        link: 'https://github.com/MrRamoun/Awesome-Books',
+        link: 'https://github.com/omarramoun/Awesome-Books',
         imgSrc: './images/social/github.svg',
       },
     },
@@ -78,12 +78,12 @@ const works = [
     buttons: {
       live: {
         text: 'see live',
-        link: 'https://ramoun.me/to-do-list/',
+        link: 'https://omarramoun.github.io/to-do-list/',
         imgSrc: './images/arrow.svg',
       },
       source: {
         text: 'see source',
-        link: 'https://github.com/MrRamoun/to-do-list',
+        link: 'https://github.com/omarramoun/to-do-list',
         imgSrc: './images/social/github.svg',
       },
     },
@@ -107,12 +107,12 @@ const works = [
     buttons: {
       live: {
         text: 'see live',
-        link: 'https://ramoun.me/NYT-Article-Clone/',
+        link: 'https://omarramoun.github.io/NYT-Article-Clone/',
         imgSrc: './images/arrow.svg',
       },
       source: {
         text: 'see source',
-        link: 'https://github.com/MrRamoun/NYT-Article-Clone',
+        link: 'https://github.com/omarramoun/NYT-Article-Clone',
         imgSrc: './images/social/github.svg',
       },
     },
