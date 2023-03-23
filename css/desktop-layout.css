@@ -85,6 +85,10 @@ body {
 
 /* about/start */
 
+.about {
+  min-height: 100vh !important;
+}
+
 .about button {
   align-self: flex-start;
 }
