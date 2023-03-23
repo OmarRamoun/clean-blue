@@ -104,6 +104,11 @@ button:disabled {
 
 /* header/start */
 
+.main-header {
+  backdrop-filter: blur(10px);
+  border-bottom: 5px solid #fff2;
+}
+
 .logo {
   color: var(--accent, #6070ff);
   font-size: 0.9rem;

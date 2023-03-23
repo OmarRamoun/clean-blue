@@ -16,11 +16,11 @@ const works = [
       type: 'Front End Dev',
       year: '2021',
     },
-    technologies: ['html5', 'css3', 'JavaScript'],
+    technologies: ['html5', 'css3', 'ES6'],
     buttons: {
       live: {
         text: 'see live',
-        link: 'https://omarramoun.github.io/Wonka-Conference/',
+        link: 'https://wonka.omarramoun.com/',
         imgSrc: './images/arrow.svg',
       },
       source: {
@@ -49,7 +49,7 @@ const works = [
     buttons: {
       live: {
         text: 'see live',
-        link: 'https://omarramoun.github.io/Awesome-Books/',
+        link: 'https://awesomebooks.omarramoun.com/',
         imgSrc: './images/arrow.svg',
       },
       source: {
@@ -78,7 +78,7 @@ const works = [
     buttons: {
       live: {
         text: 'see live',
-        link: 'https://omarramoun.github.io/to-do-list/',
+        link: 'https://todo.omarramoun.com/',
         imgSrc: './images/arrow.svg',
       },
       source: {
@@ -107,7 +107,7 @@ const works = [
     buttons: {
       live: {
         text: 'see live',
-        link: 'https://omarramoun.github.io/NYT-Article-Clone/',
+        link: 'https://nyt.omarramoun.com/',
         imgSrc: './images/arrow.svg',
       },
       source: {
@@ -119,10 +119,8 @@ const works = [
   },
 ];
 
-for (let i = 1; i <= 4; i += 1) {
-  const myWork = works[i - 1];
-  myWork.id = i;
-  myWork.image = { src: `./images/snapshoot/snapshoot_${i}.png`, alt: 'Project image' };
+works.forEach((myWork) => {
+  myWork.image = { src: `./images/snapshoot/snapshoot_${myWork.id}.png`, alt: 'Project image' };
 
   const article = document.createElement('article');
   article.classList.add('card', 'flex', 'flex-column', 'bg');
@@ -194,7 +192,7 @@ for (let i = 1; i <= 4; i += 1) {
   div.appendChild(button);
 
   worksWrapper.appendChild(article);
-}
+});
 
 const closeModal = () => {
   const modal = document.querySelector('.modal-container');
@@ -327,8 +325,8 @@ const displayPopup = (work) => {
 
 const seeButtons = document.querySelectorAll('.see');
 
-for (let i = 0; i < seeButtons.length; i += 1) {
-  seeButtons[i].addEventListener('click', () => {
+seeButtons.forEach((button, i) => {
+  button.addEventListener('click', () => {
     displayPopup(works[i]);
   });
-}
+});
