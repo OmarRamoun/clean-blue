@@ -1,189 +1,538 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description"
-        content="Software Engineer, Graphic Designer, Producer, Ramoun helps you remove obstcles to achieve your goals. Specializing in Full Stack Web Development, Logo Design & Music Producing">
-  <meta name="robot" content="index,follow">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" type="text/css" media="all and (min-width: 700px)" href="css/desktop-style.css" />
-  <link rel="stylesheet" type="text/css" media="all and (min-width: 700px)" href="css/desktop-layout.css" />
-  <link rel="stylesheet" href="css/animation.css">
-  <link rel="stylesheet" href="css/-debug.css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="description"
+      content="Software Engineer, Graphic Designer, Producer, Ramoun helps you remove obstcles to achieve your goals. Specializing in Full Stack Web Development, Logo Design & Music Producing"
+    />
+    <meta
+      name="robot"
+      content="index,follow"
+    />
+    <link
+      rel="stylesheet"
+      href="css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/layout.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+      integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all and (min-width: 700px)"
+      href="css/desktop-style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all and (min-width: 700px)"
+      href="css/desktop-layout.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/animation.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/-debug.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="favicon.ico"
+      type="image/x-icon"
+    />
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){window.dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-9NDDW8JV2J');
-  </script>
+      function gtag () {
+        window.dataLayer.push( arguments );
+      }
+      gtag( 'js', new Date() );
 
-  <script src="js/script.js" defer></script>
+      gtag( 'config', 'G-9NDDW8JV2J' );
+    </script>
 
-  <title>Ramoun | Software Engineer</title>
-</head>
+    <script
+      src="js/script.js"
+      defer
+    ></script>
 
-<body>
-  <!-- header -->
-  <header class="main-header bg">
-    <div class="wrapper flex space-between cross-center">
-      <a class="logo clip bold flex space-between cross-center" href="./">
-        <img src="./images/darwin.jpg" alt="Ramoun's logo">
-        <span>Ramoun</span>
-      </a>
-      <nav class="main-nav">
-        <a id="menu-icon" href="#">
-          <svg class="none" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H17C17.5523 0 18 0.447715 18 1C18 1.55228 17.5523 2 17 2H1C0.447715 2 0 1.55228 0 1ZM0 6C0 5.44772 0.447715 5 1 5L17 5C17.5523 5 18 5.44772 18 6C18 6.55229 17.5523 7 17 7L1 7C0.447715 7 0 6.55228 0 6ZM1 10C0.447715 10 0 10.4477 0 11C0 11.5523 0.447715 12 1 12H17C17.5523 12 18 11.5523 18 11C18 10.4477 17.5523 10 17 10H1Z" fill="rgb(96, 112, 255)"/>
-          </svg>
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="white"/>
-          </svg>
+    <title>Ramoun | Software Engineer</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="main-header bg">
+      <div class="wrapper flex space-between cross-center">
+        <a
+          class="logo clip bold flex space-between cross-center"
+          href="./"
+        >
+          <img
+            src="./images/darwin.jpg"
+            alt="Ramoun's logo"
+          />
+          <span>Ramoun</span>
         </a>
-        <ul class="nav-menu space-between cross-center cap">
-          <li class="flex main-center active"><a onclick="displayMenu()" href="#works">portfolio</a>
-          <span></span>
-          </li>
-          <li class="flex main-center"><a onclick="displayMenu()" href="#about">about</a>
-          <span></span>
-          </li>
-          <li class="flex main-center"><a onclick="displayMenu()" href="#contact-form">contact</a>
-          <span></span>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!-- intro -->
-  <section class="intro bg">
-    <div class="wrapper hero flex space-between flex-column">
-      <h1 class="heading">I’m&nbsp;Ramoun Glad&nbsp;to&nbsp;see you!</h1>
-      <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and
-        experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-      <div class="cta">
-        <a class="hover-underline-animation bold upper" href="#contact-form">let's connect</a>
+        <nav class="main-nav">
+          <a
+            id="menu-icon"
+            href="#"
+          >
+            <svg
+              class="none"
+              width="18"
+              height="12"
+              viewBox="0 0 18 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 1C0 0.447715 0.447715 0 1 0H17C17.5523 0 18 0.447715 18 1C18 1.55228 17.5523 2 17 2H1C0.447715 2 0 1.55228 0 1ZM0 6C0 5.44772 0.447715 5 1 5L17 5C17.5523 5 18 5.44772 18 6C18 6.55229 17.5523 7 17 7L1 7C0.447715 7 0 6.55228 0 6ZM1 10C0.447715 10 0 10.4477 0 11C0 11.5523 0.447715 12 1 12H17C17.5523 12 18 11.5523 18 11C18 10.4477 17.5523 10 17 10H1Z"
+                fill="rgb(96, 112, 255)"
+              />
+            </svg>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
+                fill="white"
+              />
+            </svg>
+          </a>
+          <ul class="nav-menu space-between cross-center cap">
+            <li id="nav-home" class="nav-item flex main-center active">
+              <a
+                onclick="displayMenu()"
+                href="#"
+              >Home</a>
+              <span></span>
+            </li>
+            <li id="nav-portfolio" class="nav-item flex main-center">
+              <a
+                onclick="displayMenu()"
+                href="#works"
+              >portfolio</a>
+              <span></span>
+            </li>
+            <li id="nav-about" class="nav-item flex main-center">
+              <a
+                onclick="displayMenu()"
+                href="#about"
+              >about</a>
+              <span></span>
+            </li>
+            <li id="nav-contact" class="nav-item flex main-center">
+              <a
+                onclick="displayMenu()"
+                href="#contact-form"
+              >contact</a>
+              <span></span>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <ul class="social flex cross-center">
-        <li class="hvr-wobble-top"><a href="https://twitter.com/ramoun16"><img src="./images/social/twitter.svg" alt="twitter"></a></li>
-        <li class="hvr-wobble-top"><a href="https://www.linkedin.com/in/ramoun"><img src="./images/social/linkedin.svg" alt="linked in"></a></li>
-        <li class="hvr-wobble-top"><a href="https://medium.com/@omartarekramoun"><img src="./images/social/medium.svg" alt="medium"></a></li>
-        <li class="hvr-wobble-top"><a href="https://github.com/mrramoun"><img src="./images/social/github.svg" alt="github"></a></li>
-        <li class="hvr-wobble-top"><a href="https://angel.co/u/omar-ramoun"><img src="./images/social/vector.svg" alt="angel list"></a></li>
-      </ul>
-    </div>
-  </section>
+    </header>
 
-  <!-- works -->
-  <section id="works" class="works margin-seprator flex main-center">
-    <div class="wrapper grid main-center">
-    </div>
-  </section>
-
-  <!-- about -->
-  <section id="about" class="about margin-seprator bg">
-    <div class="wrapper hero flex space-between flex-column">
-      <div class="left-side hero flex space-between flex-column">
-        <h2 class="heading bold cap margin-seprator">About <br> Myself</h2>
-        <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+    <!-- intro -->
+    <section class="intro bg">
+      <div class="wrapper hero flex space-between flex-column">
+        <h1 class="heading">I’m&nbsp;Ramoun Glad&nbsp;to&nbsp;see you!</h1>
+        <p>
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
         <div class="cta">
-          <a class="hover-underline-animation bold upper" href="#contact-form">let's connect</a>
+          <a
+            class="hover-underline-animation bold upper"
+            href="#contact-form"
+          >let's connect</a>
         </div>
         <ul class="social flex cross-center">
-          <li class="hvr-wobble-top"><a href="https://twitter.com/ramoun16"><img src="./images/social/twitter.svg" alt="twitter"></a></li>
-          <li class="hvr-wobble-top"><a href="https://www.linkedin.com/in/ramoun"><img src="./images/social/linkedin.svg" alt="linkedin"></a></li>
-          <li class="hvr-wobble-top"><a href="https://medium.com/@omartarekramoun"><img src="./images/social/medium.svg" alt="medium"></a></li>
-          <li class="hvr-wobble-top"><a href="https://github.com/mrramoun"><img src="./images/social/github.svg" alt="github"></a></li>
-          <li class="hvr-wobble-top"><a href="https://angel.co/u/omar-ramoun"><img src="./images/social/vector.svg" alt="angel list"></a></li>
+          <li class="hvr-wobble-top">
+            <a href="https://twitter.com/ramoun16"><img
+                src="./images/social/twitter.svg"
+                alt="twitter"
+              /></a>
+          </li>
+          <li class="hvr-wobble-top">
+            <a href="https://www.linkedin.com/in/ramoun"><img
+                src="./images/social/linkedin.svg"
+                alt="linked in"
+              /></a>
+          </li>
+          <li class="hvr-wobble-top">
+            <a href="https://medium.com/@omartarekramoun"><img
+                src="./images/social/medium.svg"
+                alt="medium"
+              /></a>
+          </li>
+          <li class="hvr-wobble-top">
+            <a href="https://github.com/omarramoun"><img
+                src="./images/social/github.svg"
+                alt="github"
+              /></a>
+          </li>
+          <li class="hvr-wobble-top">
+            <a href="https://angel.co/u/omar-ramoun"><img
+                src="./images/social/vector.svg"
+                alt="angel list"
+              /></a>
+          </li>
         </ul>
-        <button class="bg round-borders cap" type="button" onclick="get_resume()">get my resume</button>
       </div>
-      <ul class="skills hero flex flex-column full-width">
-        <li>
-          <details open>
-            <summary class="summary flex cross-center space-between cap">
-              <span>languages</span>
-              <span class="arrow flex"><img src="./images/arrow.svg" alt=""></span>
-            </summary>
-            <ul class="languages hero">
-              <li class="lang flex cross-center round-borders">
-                <img src="./images/lingos/javascript.svg" alt="">
-                <span>JavaScript</span></li>
-              <li class="lang flex cross-center round-borders">
-                <img src="./images/lingos/html.svg" alt="">
-                <span>HTML</span>
-              </li>
-              <li class="lang flex cross-center round-borders">
-                <img src="./images/lingos/css.svg" alt="">
-                <span>CSS</span>
-              </li>
-              <li class="lang flex cross-center round-borders">
-                <img src="./images/lingos/cpp.png" alt="">
-                <span>C++</span>
-              </li>
-            </ul>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary class="summary flex cross-center space-between cap">
-              <span>frameworks</span>
-              <span class="arrow flex cross-center"><img src="./images/arrow.svg" alt=""></span>
-            </summary>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary class="summary flex cross-center space-between cap">
-              <span>skills</span>
-              <span class="arrow flex main-center"><img src="./images/arrow.svg" alt=""></span>
-            </summary>
-          </details>
-        </li>
-      </ul>
-    </div>
-  </section>
+    </section>
 
-  <!-- footer -->
-  <footer id="footer" class="footer bg">
-    <div class="wrapper hero flex flex-column cross-center">
-      <h2 class="heading bold cap center">contact me</h2>
-      <p class="center">If you have an application you are interested in developing, a feature that you need built or a
-        project that needs coding. I’d love to help with it</p>
-      <form id="contact-form" class="hero flex flex-column full-width" action="https://formspree.io/f/mrgroknj" method="post">
-        <input class="form-element round-borders hvr-buzz-out" type="text" id="name" name="user_name"
-          placeholder="Name (ex: John Does)" maxlength="30" required>
-        <input class="form-element round-borders hvr-buzz-out" type="email" id="mail" name="user_email"
-          placeholder="Email (ex: john@gmail.com" required>
-        <textarea class="form-element round-borders hvr-buzz-out" id="msg" name="user_message" placeholder="Write your message here"
-          maxlength="500" required></textarea>
-        <button class="bg round-borders cap" type="submit">get in touch</button>
-        <div id="msg-bubble" class="show_hide">
-          <p class="center">The content of the email field has to be in lower case</p>
-          <span>
-            <img src="./images/cancel.svg" alt="">
-          </span>
+    <!-- works -->
+    <section
+      id="works"
+      class="works margin-seprator flex main-center"
+    >
+      <div class="wrapper grid main-center"></div>
+    </section>
+
+    <!-- about -->
+    <section
+      id="about"
+      class="about margin-seprator bg"
+    >
+      <div class="wrapper hero flex space-between flex-column">
+        <div class="left-side hero flex space-between flex-column">
+          <h2 class="heading bold cap margin-seprator">
+            About <br />
+            Myself
+          </h2>
+          <p>
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
+          <div class="cta">
+            <a
+              class="hover-underline-animation bold upper"
+              href="#contact-form"
+            >let's connect</a>
+          </div>
+          <ul class="social flex cross-center">
+            <li class="hvr-wobble-top">
+              <a
+                href="https://twitter.com/omarramoun"
+                target="_blank"
+              ><img
+                  src="./images/social/twitter.svg"
+                  alt="twitter"
+                /></a>
+            </li>
+            <li class="hvr-wobble-top">
+              <a
+                href="https://www.linkedin.com/in/omarramoun"
+                target="_blank"
+              ><img
+                  src="./images/social/linkedin.svg"
+                  alt="linkedin"
+                /></a>
+            </li>
+            <li class="hvr-wobble-top">
+              <a
+                href="https://medium.com/@omartarekramoun"
+                target="_blank"
+              ><img
+                  src="./images/social/medium.svg"
+                  alt="medium"
+                /></a>
+            </li>
+            <li class="hvr-wobble-top">
+              <a
+                href="https://github.com/omarramoun"
+                target="_blank"
+              ><img
+                  src="./images/social/github.svg"
+                  alt="github"
+                /></a>
+            </li>
+            <li class="hvr-wobble-top">
+              <a
+                href="https://angel.co/u/omar-ramoun"
+                target="_blank"
+              ><img
+                  src="./images/social/vector.svg"
+                  alt="angel list"
+                /></a>
+            </li>
+          </ul>
+          <button
+            class="bg round-borders cap"
+            type="button"
+            onclick="get_resume()"
+          >
+            get my resume
+          </button>
         </div>
-      </form>
-    </div>
-  </footer>
 
-  <!-- scripts -->
-  <script src="./js/load.js"></script>
-  <script src="./js/dom.js"></script>
-  <script src="./js/validation.js"></script>
-  <script src="./js/script.js"></script>
-  <script src="./js/localStorage.js"></script>
-</body>
+        <ul class="skills hero flex flex-column full-width">
+          <li>
+            <details open>
+              <summary class="summary flex cross-center space-between cap">
+                <span>languages</span>
+                <span class="arrow flex"><img
+                    src="./images/arrow.svg"
+                    alt=""
+                  /></span>
+              </summary>
+
+              <ul class="languages hero">
+                <li class="lang flex cross-center round-borders">
+                  <img
+                    src="./images/lingos/javascript.svg"
+                    alt=""
+                  />
+                  <span>JavaScript</span>
+                </li>
+
+                <li class="lang flex cross-center round-borders">
+                  <img
+                    src="./images/lingos/html.svg"
+                    alt=""
+                  />
+                  <span>HTML</span>
+                </li>
+
+                <li class="lang flex cross-center round-borders">
+                  <img
+                    src="./images/lingos/css.svg"
+                    alt=""
+                  />
+                  <span>CSS</span>
+                </li>
+
+                <li class="lang flex cross-center round-borders">
+                  <img
+                    src="./images/lingos/cpp.png"
+                    alt=""
+                  />
+                  <span>C++</span>
+                </li>
+
+                <li class="lang flex cross-center round-borders">
+                  <img
+                    src="./images/lingos/elm.png"
+                    alt=""
+                  />
+                  <span>Elm</span>
+                </li>
+              </ul>
+            </details>
+          </li>
+
+          <li>
+            <details>
+              <summary class="summary flex cross-center space-between cap">
+                <span>frameworks</span>
+                <span class="arrow flex cross-center"><img
+                    src="./images/arrow.svg"
+                    alt=""
+                  /></span>
+              </summary>
+
+              <ul class="languages hero">
+                <li class="lang flex cross-center round-borders">
+                  <img
+                    src="./images/lingos/react.png"
+                    alt=""
+                  />
+                  <span>React</span>
+                </li>
+
+                <li class="lang flex cross-center round-borders">
+                  <img
+                    src="./images/lingos/vue.png"
+                    alt=""
+                  />
+                  <span>Vue</span>
+                </li>
+
+                <li class="lang flex cross-center round-borders">
+                  <img
+                    src="./images/lingos/next.png"
+                    alt=""
+                  />
+                  <span>Next.js</span>
+                </li>
+
+                <li class="lang flex cross-center round-borders">
+                  <img
+                    src="./images/lingos/rails.png"
+                    alt=""
+                  />
+                  <span>Rails</span>
+                </li>
+
+                <li class="lang flex cross-center round-borders">
+                  <img
+                    src="./images/lingos/django.png"
+                    alt=""
+                  />
+                  <span>Django</span>
+                </li>
+              </ul>
+            </details>
+          </li>
+
+          <li>
+            <details>
+              <summary class="summary flex cross-center space-between cap">
+                <span>skills</span>
+
+                <span class="arrow flex main-center"><img
+                    src="./images/arrow.svg"
+                    alt=""
+                  /></span>
+              </summary>
+
+              <ul class="languages hero">
+                <li class="lang flex cross-center round-borders">
+                  <img
+                    src="./images/lingos/tdd.png"
+                    alt=""
+                  />
+                  <span>TDD</span>
+                </li>
+
+                <li class="lang flex cross-center round-borders">
+                  <img
+                    src="./images/lingos/rspec.png"
+                    alt=""
+                  />
+                  <span>RSpec</span>
+                </li>
+
+                <li class="lang flex cross-center round-borders">
+                  <img
+                    src="./images/lingos/mui.png"
+                    alt=""
+                  />
+                  <span>MUI</span>
+                </li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer
+      id="footer"
+      class="footer bg"
+    >
+      <div class="wrapper hero flex flex-column cross-center">
+        <h2 class="heading bold cap center">contact me</h2>
+        <p class="center">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+        <form
+          id="contact-form"
+          class="hero flex flex-column full-width"
+          action="https://formspree.io/f/mrgroknj"
+          method="post"
+        >
+          <input
+            class="form-element round-borders hvr-buzz-out"
+            type="text"
+            id="name"
+            name="user_name"
+            placeholder="Name (ex: John Does)"
+            maxlength="30"
+            required
+          />
+          <input
+            class="form-element round-borders hvr-buzz-out"
+            type="email"
+            id="mail"
+            name="user_email"
+            placeholder="Email (ex: john@gmail.com)"
+            required
+          />
+          <textarea
+            class="form-element round-borders hvr-buzz-out"
+            id="msg"
+            name="user_message"
+            placeholder="Write your message here"
+            maxlength="500"
+            required
+          ></textarea>
+          <button
+            class="bg round-borders cap"
+            type="submit"
+          >
+            get in touch
+          </button>
+          <div
+            id="msg-bubble"
+            class="show_hide"
+          >
+            <p class="center">
+              The content of the email field has to be in lower case
+            </p>
+            <span>
+              <img
+                src="./images/cancel.svg"
+                alt=""
+              />
+            </span>
+          </div>
+        </form>
+      </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="./js/load.js"></script>
+    <script src="./js/dom.js"></script>
+    <script src="./js/validation.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/localStorage.js"></script>
+  </body>
 
 </html>

@@ -106,6 +106,8 @@ button:disabled {
 
 .main-header {
   padding: 1rem 0;
+  position: sticky;
+  top: 0;
 }
 
 .logo {
@@ -247,6 +249,10 @@ button:disabled {
 
 /* about/start */
 
+.left-side {
+  max-height: 200px
+}
+
 .about {
   border-top-right-radius: 5rem;
   padding-bottom: 5.7rem;
@@ -255,6 +261,7 @@ button:disabled {
 .about button {
   flex-basis: 100%;
   margin-bottom: 1.3rem;
+  max-height: 50px;
 }
 
 .summary {
