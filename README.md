@@ -20,7 +20,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://omarramoun.github.io/Portfolio-Template)
+[Live Demo Link](https://cleanblue.omarramoun.com/)
 
 ## Authors
 
