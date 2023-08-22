@@ -12,17 +12,13 @@ body {
 
 /* header/start */
 
-.main-header {
-  padding: 2rem 0;
-}
-
 .main-nav {
   min-width: 37%;
 }
 
 .nav-menu {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.7rem;
 }
 
 .main-nav svg {
@@ -148,3 +144,4 @@ body {
 }
 
 /* modal/end */
+

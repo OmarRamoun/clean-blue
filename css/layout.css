@@ -6,6 +6,10 @@ body * {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 700px;
   margin: 0 auto;
@@ -178,7 +182,7 @@ button:disabled {
   width: 0.4rem;
   height: 0.4rem;
   background: var(--accent);
-  top: 1.8rem;
+  top: 0.8rem;
   border-radius: 50%;
   opacity: 0;
   transition: opacity 0.6s;
