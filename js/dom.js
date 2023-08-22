@@ -1,6 +1,12 @@
 const navBtn = document.querySelector('#menu-icon');
 const navItems = document.querySelectorAll('.nav-item');
 const header = document.querySelector('.main-header');
+const homeNavItem = document.querySelector('#nav-home');
+const portfolioNavItem = document.querySelector('#nav-portfolio');
+const aboutNavItem = document.querySelector('#nav-about');
+const contactNavItem = document.querySelector('#nav-contact');
+const scrollItems = document.querySelectorAll('.scroll');
+
 header.style.backgroundColor = '#fff';
 
 const switchActiveItem = (type, navItem) => {
@@ -33,12 +39,6 @@ const displayMenu = () => {
 };
 
 window.onscroll = () => {
-  const homeNavItem = document.querySelector('#nav-home');
-  const portfolioNavItem = document.querySelector('#nav-portfolio');
-  const aboutNavItem = document.querySelector('#nav-about');
-  const contactNavItem = document.querySelector('#nav-contact');
-  const scrollItems = document.querySelectorAll('.scroll');
-
   const scroll = window.pageYOffset;
 
   scrollItems.forEach((item) => {
