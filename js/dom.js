@@ -37,8 +37,20 @@ window.onscroll = () => {
   const portfolioNavItem = document.querySelector('#nav-portfolio');
   const aboutNavItem = document.querySelector('#nav-about');
   const contactNavItem = document.querySelector('#nav-contact');
+  const scrollItems = document.querySelectorAll('.scroll');
 
   const scroll = window.pageYOffset;
+
+  scrollItems.forEach((item) => {
+    if (item.dataset.direction === 'horizontal') {
+      item.style.transform = `translate3d(${scroll * item.dataset.rate}px, 0px, 0px)`;
+    }
+
+    if (item.dataset.direction === 'vertical') {
+      item.style.transform = `translate3d(0px, ${scroll * item.dataset.rate}px, 0px)`;
+    }
+  });
+
   if (scroll < 100) {
     header.style.backgroundColor = '#fff';
     header.style.boxShadow = 'none';

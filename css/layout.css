@@ -36,6 +36,10 @@ button:disabled {
   box-shadow: none;
 }
 
+.scroll {
+  display: inline-block;
+}
+
 .lang > * {
   padding: 0.5rem 0;
   padding-left: 0.5rem;
@@ -190,8 +194,9 @@ button:disabled {
 
 .intro {
   min-height: 30rem;
-  padding-top: 4.2rem;
+  padding-top: 6.2rem;
   border-radius: 0 0 0% 100px;
+  overflow: hidden;
 }
 
 .heading {
